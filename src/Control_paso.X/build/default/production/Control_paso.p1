@@ -1,0 +1,1973 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"693 /home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 693:     struct {
+[s S43 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S43 . TRISC0 TRISC1 TRISC2 TRISC3 TRISC4 TRISC5 TRISC6 TRISC7 ]
+"692
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 692: typedef union {
+[u S42 `S43 1 ]
+[n S42 . . ]
+"704
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 704: extern volatile TRISCbits_t TRISCbits __attribute__((address(0x014)));
+[v _TRISCbits `VS42 ~T0 @X0 0 e@20 ]
+"654
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 654:     struct {
+[s S41 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S41 . . TRISB4 TRISB5 TRISB6 TRISB7 ]
+"653
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 653: typedef union {
+[u S40 `S41 1 ]
+[n S40 . . ]
+"662
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 662: extern volatile TRISBbits_t TRISBbits __attribute__((address(0x013)));
+[v _TRISBbits `VS40 ~T0 @X0 0 e@19 ]
+"542
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 542:     struct {
+[s S37 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S37 . RC0 RC1 RC2 RC3 RC4 RC5 RC6 RC7 ]
+"541
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 541: typedef union {
+[u S36 `S37 1 ]
+[n S36 . . ]
+"553
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 553: extern volatile PORTCbits_t PORTCbits __attribute__((address(0x00E)));
+[v _PORTCbits `VS36 ~T0 @X0 0 e@14 ]
+"503
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 503:     struct {
+[s S35 :4 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S35 . . RB4 RB5 RB6 RB7 ]
+"502
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 502: typedef union {
+[u S34 `S35 1 ]
+[n S34 . . ]
+"511
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 511: extern volatile PORTBbits_t PORTBbits __attribute__((address(0x00D)));
+[v _PORTBbits `VS34 ~T0 @X0 0 e@13 ]
+[v F183 `(v ~T0 @X0 1 tf1`ul ]
+"12 /home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/builtins.h
+[v __delay `JF183 ~T0 @X0 0 e ]
+[p i __delay ]
+"51 ./flex_lcd.h
+[; ;./flex_lcd.h: 51: void Lcd_Cmd(unsigned char data);
+[v _Lcd_Cmd `(v ~T0 @X0 0 ef1`uc ]
+"50
+[; ;./flex_lcd.h: 50: void Lcd_Chr_CP(char data);
+[v _Lcd_Chr_CP `(v ~T0 @X0 0 ef1`uc ]
+"749 /home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 749: extern volatile unsigned char LATA __attribute__((address(0x018)));
+[v _LATA `Vuc ~T0 @X0 0 e@24 ]
+"799
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 799: extern volatile unsigned char LATB __attribute__((address(0x019)));
+[v _LATB `Vuc ~T0 @X0 0 e@25 ]
+"838
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 838: extern volatile unsigned char LATC __attribute__((address(0x01A)));
+[v _LATC `Vuc ~T0 @X0 0 e@26 ]
+"598
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 598: extern volatile unsigned char TRISA __attribute__((address(0x012)));
+[v _TRISA `Vuc ~T0 @X0 0 e@18 ]
+"648
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 648: extern volatile unsigned char TRISB __attribute__((address(0x013)));
+[v _TRISB `Vuc ~T0 @X0 0 e@19 ]
+"687
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 687: extern volatile unsigned char TRISC __attribute__((address(0x014)));
+[v _TRISC `Vuc ~T0 @X0 0 e@20 ]
+"8791
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8791: extern volatile unsigned char ANSELC __attribute__((address(0x1F4E)));
+[v _ANSELC `Vuc ~T0 @X0 0 e@8014 ]
+"8479
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8479: extern volatile unsigned char ANSELB __attribute__((address(0x1F43)));
+[v _ANSELB `Vuc ~T0 @X0 0 e@8003 ]
+"8094
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8094: extern volatile unsigned char ANSELA __attribute__((address(0x1F38)));
+[v _ANSELA `Vuc ~T0 @X0 0 e@7992 ]
+"8853
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8853: extern volatile unsigned char WPUC __attribute__((address(0x1F4F)));
+[v _WPUC `Vuc ~T0 @X0 0 e@8015 ]
+"8189
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8189: extern volatile unsigned char ODCONA __attribute__((address(0x1F3A)));
+[v _ODCONA `Vuc ~T0 @X0 0 e@7994 ]
+"8557
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8557: extern volatile unsigned char ODCONB __attribute__((address(0x1F45)));
+[v _ODCONB `Vuc ~T0 @X0 0 e@8005 ]
+"8915
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8915: extern volatile unsigned char ODCONC __attribute__((address(0x1F50)));
+[v _ODCONC `Vuc ~T0 @X0 0 e@8016 ]
+"8234
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8234: extern volatile unsigned char SLRCONA __attribute__((address(0x1F3B)));
+[v _SLRCONA `Vuc ~T0 @X0 0 e@7995 ]
+"8596
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8596: extern volatile unsigned char SLRCONB __attribute__((address(0x1F46)));
+[v _SLRCONB `Vuc ~T0 @X0 0 e@8006 ]
+"8977
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8977: extern volatile unsigned char SLRCONC __attribute__((address(0x1F51)));
+[v _SLRCONC `Vuc ~T0 @X0 0 e@8017 ]
+"8279
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8279: extern volatile unsigned char INLVLA __attribute__((address(0x1F3C)));
+[v _INLVLA `Vuc ~T0 @X0 0 e@7996 ]
+"8635
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8635: extern volatile unsigned char INLVLB __attribute__((address(0x1F47)));
+[v _INLVLB `Vuc ~T0 @X0 0 e@8007 ]
+"9039
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9039: extern volatile unsigned char INLVLC __attribute__((address(0x1F52)));
+[v _INLVLC `Vuc ~T0 @X0 0 e@8018 ]
+"113 /opt/microchip/xc8/v2.32/pic/include/c99/stdio.h
+[v _sprintf `(i ~T0 @X0 0 e1v`*uc`*Cuc ]
+"755 /home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 755:     struct {
+[s S45 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S45 . LATA0 LATA1 LATA2 LATA3 LATA4 LATA5 ]
+"754
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 754: typedef union {
+[u S44 `S45 1 ]
+[n S44 . . ]
+"764
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 764: extern volatile LATAbits_t LATAbits __attribute__((address(0x018)));
+[v _LATAbits `VS44 ~T0 @X0 0 e@24 ]
+[p mainexit ]
+"453
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 453:     struct {
+[s S33 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S33 . RA0 RA1 RA2 RA3 RA4 RA5 ]
+"452
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 452: typedef union {
+[u S32 `S33 1 ]
+[n S32 . . ]
+"462
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 462: extern volatile PORTAbits_t PORTAbits __attribute__((address(0x00C)));
+[v _PORTAbits `VS32 ~T0 @X0 0 e@12 ]
+"844
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 844:     struct {
+[s S49 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S49 . LATC0 LATC1 LATC2 LATC3 LATC4 LATC5 LATC6 LATC7 ]
+"843
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 843: typedef union {
+[u S48 `S49 1 ]
+[n S48 . . ]
+"855
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 855: extern volatile LATCbits_t LATCbits __attribute__((address(0x01A)));
+[v _LATCbits `VS48 ~T0 @X0 0 e@26 ]
+"111 /home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 111: __asm("INDF0 equ 00h");
+[; <" INDF0 equ 00h ;# ">
+"131
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 131: __asm("INDF1 equ 01h");
+[; <" INDF1 equ 01h ;# ">
+"151
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 151: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"171
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 171: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"234
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 234: __asm("FSR0L equ 04h");
+[; <" FSR0L equ 04h ;# ">
+"254
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 254: __asm("FSR0H equ 05h");
+[; <" FSR0H equ 05h ;# ">
+"278
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 278: __asm("FSR1L equ 06h");
+[; <" FSR1L equ 06h ;# ">
+"298
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 298: __asm("FSR1H equ 07h");
+[; <" FSR1H equ 07h ;# ">
+"318
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 318: __asm("BSR equ 08h");
+[; <" BSR equ 08h ;# ">
+"376
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 376: __asm("WREG equ 09h");
+[; <" WREG equ 09h ;# ">
+"396
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 396: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"416
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 416: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"449
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 449: __asm("PORTA equ 0Ch");
+[; <" PORTA equ 0Ch ;# ">
+"499
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 499: __asm("PORTB equ 0Dh");
+[; <" PORTB equ 0Dh ;# ">
+"538
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 538: __asm("PORTC equ 0Eh");
+[; <" PORTC equ 0Eh ;# ">
+"600
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 600: __asm("TRISA equ 012h");
+[; <" TRISA equ 012h ;# ">
+"650
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 650: __asm("TRISB equ 013h");
+[; <" TRISB equ 013h ;# ">
+"689
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 689: __asm("TRISC equ 014h");
+[; <" TRISC equ 014h ;# ">
+"751
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 751: __asm("LATA equ 018h");
+[; <" LATA equ 018h ;# ">
+"801
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 801: __asm("LATB equ 019h");
+[; <" LATB equ 019h ;# ">
+"840
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 840: __asm("LATC equ 01Ah");
+[; <" LATC equ 01Ah ;# ">
+"902
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 902: __asm("CPCON equ 09Ah");
+[; <" CPCON equ 09Ah ;# ">
+"935
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 935: __asm("ADRES equ 09Bh");
+[; <" ADRES equ 09Bh ;# ">
+"942
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 942: __asm("ADRESL equ 09Bh");
+[; <" ADRESL equ 09Bh ;# ">
+"962
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 962: __asm("ADRESH equ 09Ch");
+[; <" ADRESH equ 09Ch ;# ">
+"982
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 982: __asm("ADCON0 equ 09Dh");
+[; <" ADCON0 equ 09Dh ;# ">
+"1043
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1043: __asm("ADCON1 equ 09Eh");
+[; <" ADCON1 equ 09Eh ;# ">
+"1097
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1097: __asm("ADACT equ 09Fh");
+[; <" ADACT equ 09Fh ;# ">
+"1125
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1125: __asm("RB4I2C equ 010Ch");
+[; <" RB4I2C equ 010Ch ;# ">
+"1158
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1158: __asm("RB6I2C equ 010Dh");
+[; <" RB6I2C equ 010Dh ;# ">
+"1191
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1191: __asm("RC1REG equ 0119h");
+[; <" RC1REG equ 0119h ;# ">
+"1211
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1211: __asm("TX1REG equ 011Ah");
+[; <" TX1REG equ 011Ah ;# ">
+"1231
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1231: __asm("SP1BRG equ 011Bh");
+[; <" SP1BRG equ 011Bh ;# ">
+"1238
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1238: __asm("SP1BRGL equ 011Bh");
+[; <" SP1BRGL equ 011Bh ;# ">
+"1258
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1258: __asm("SP1BRGH equ 011Ch");
+[; <" SP1BRGH equ 011Ch ;# ">
+"1278
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1278: __asm("RC1STA equ 011Dh");
+[; <" RC1STA equ 011Dh ;# ">
+"1340
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1340: __asm("TX1STA equ 011Eh");
+[; <" TX1STA equ 011Eh ;# ">
+"1402
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1402: __asm("BAUD1CON equ 011Fh");
+[; <" BAUD1CON equ 011Fh ;# ">
+"1454
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1454: __asm("SSP1BUF equ 018Ch");
+[; <" SSP1BUF equ 018Ch ;# ">
+"1474
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1474: __asm("SSP1ADD equ 018Dh");
+[; <" SSP1ADD equ 018Dh ;# ">
+"1594
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1594: __asm("SSP1MSK equ 018Eh");
+[; <" SSP1MSK equ 018Eh ;# ">
+"1664
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 1664: __asm("SSP1STAT equ 018Fh");
+[; <" SSP1STAT equ 018Fh ;# ">
+"2028
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 2028: __asm("SSP1CON1 equ 0190h");
+[; <" SSP1CON1 equ 0190h ;# ">
+"2148
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 2148: __asm("SSP1CON2 equ 0191h");
+[; <" SSP1CON2 equ 0191h ;# ">
+"2335
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 2335: __asm("SSP1CON3 equ 0192h");
+[; <" SSP1CON3 equ 0192h ;# ">
+"2397
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 2397: __asm("TMR1L equ 020Ch");
+[; <" TMR1L equ 020Ch ;# ">
+"2467
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 2467: __asm("TMR1H equ 020Dh");
+[; <" TMR1H equ 020Dh ;# ">
+"2537
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 2537: __asm("T1CON equ 020Eh");
+[; <" T1CON equ 020Eh ;# ">
+"2542
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 2542: __asm("TMR1CON equ 020Eh");
+[; <" TMR1CON equ 020Eh ;# ">
+"2727
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 2727: __asm("T1GCON equ 020Fh");
+[; <" T1GCON equ 020Fh ;# ">
+"2732
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 2732: __asm("TMR1GCON equ 020Fh");
+[; <" TMR1GCON equ 020Fh ;# ">
+"2941
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 2941: __asm("T1GATE equ 0210h");
+[; <" T1GATE equ 0210h ;# ">
+"2946
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 2946: __asm("TMR1GATE equ 0210h");
+[; <" TMR1GATE equ 0210h ;# ">
+"3107
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 3107: __asm("T1CLK equ 0211h");
+[; <" T1CLK equ 0211h ;# ">
+"3112
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 3112: __asm("TMR1CLK equ 0211h");
+[; <" TMR1CLK equ 0211h ;# ">
+"3249
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 3249: __asm("T2TMR equ 028Ch");
+[; <" T2TMR equ 028Ch ;# ">
+"3254
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 3254: __asm("TMR2 equ 028Ch");
+[; <" TMR2 equ 028Ch ;# ">
+"3303
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 3303: __asm("T2PR equ 028Dh");
+[; <" T2PR equ 028Dh ;# ">
+"3308
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 3308: __asm("PR2 equ 028Dh");
+[; <" PR2 equ 028Dh ;# ">
+"3357
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 3357: __asm("T2CON equ 028Eh");
+[; <" T2CON equ 028Eh ;# ">
+"3503
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 3503: __asm("T2HLT equ 028Fh");
+[; <" T2HLT equ 028Fh ;# ">
+"3631
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 3631: __asm("T2CLKCON equ 0290h");
+[; <" T2CLKCON equ 0290h ;# ">
+"3711
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 3711: __asm("T2RST equ 0291h");
+[; <" T2RST equ 0291h ;# ">
+"3791
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 3791: __asm("CCPR1 equ 030Ch");
+[; <" CCPR1 equ 030Ch ;# ">
+"3798
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 3798: __asm("CCPR1L equ 030Ch");
+[; <" CCPR1L equ 030Ch ;# ">
+"3818
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 3818: __asm("CCPR1H equ 030Dh");
+[; <" CCPR1H equ 030Dh ;# ">
+"3838
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 3838: __asm("CCP1CON equ 030Eh");
+[; <" CCP1CON equ 030Eh ;# ">
+"3965
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 3965: __asm("CCP1CAP equ 030Fh");
+[; <" CCP1CAP equ 030Fh ;# ">
+"4021
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4021: __asm("CCPR2 equ 0310h");
+[; <" CCPR2 equ 0310h ;# ">
+"4028
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4028: __asm("CCPR2L equ 0310h");
+[; <" CCPR2L equ 0310h ;# ">
+"4048
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4048: __asm("CCPR2H equ 0311h");
+[; <" CCPR2H equ 0311h ;# ">
+"4068
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4068: __asm("CCP2CON equ 0312h");
+[; <" CCP2CON equ 0312h ;# ">
+"4195
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4195: __asm("CCP2CAP equ 0313h");
+[; <" CCP2CAP equ 0313h ;# ">
+"4251
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4251: __asm("PWM3DC equ 0314h");
+[; <" PWM3DC equ 0314h ;# ">
+"4258
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4258: __asm("PWM3DCL equ 0314h");
+[; <" PWM3DCL equ 0314h ;# ">
+"4279
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4279: __asm("PWM3DCH equ 0315h");
+[; <" PWM3DCH equ 0315h ;# ">
+"4299
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4299: __asm("PWM3CON equ 0316h");
+[; <" PWM3CON equ 0316h ;# ">
+"4355
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4355: __asm("PWM4DC equ 0318h");
+[; <" PWM4DC equ 0318h ;# ">
+"4362
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4362: __asm("PWM4DCL equ 0318h");
+[; <" PWM4DCL equ 0318h ;# ">
+"4383
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4383: __asm("PWM4DCH equ 0319h");
+[; <" PWM4DCH equ 0319h ;# ">
+"4403
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4403: __asm("PWM4CON equ 031Ah");
+[; <" PWM4CON equ 031Ah ;# ">
+"4459
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4459: __asm("TMR0L equ 059Ch");
+[; <" TMR0L equ 059Ch ;# ">
+"4464
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4464: __asm("TMR0 equ 059Ch");
+[; <" TMR0 equ 059Ch ;# ">
+"4597
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4597: __asm("TMR0H equ 059Dh");
+[; <" TMR0H equ 059Dh ;# ">
+"4602
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4602: __asm("PR0 equ 059Dh");
+[; <" PR0 equ 059Dh ;# ">
+"4851
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4851: __asm("T0CON0 equ 059Eh");
+[; <" T0CON0 equ 059Eh ;# ">
+"4949
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 4949: __asm("T0CON1 equ 059Fh");
+[; <" T0CON1 equ 059Fh ;# ">
+"5091
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5091: __asm("PIR0 equ 070Ch");
+[; <" PIR0 equ 070Ch ;# ">
+"5124
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5124: __asm("PIR1 equ 070Dh");
+[; <" PIR1 equ 070Dh ;# ">
+"5186
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5186: __asm("PIR2 equ 070Eh");
+[; <" PIR2 equ 070Eh ;# ">
+"5219
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5219: __asm("PIE0 equ 0716h");
+[; <" PIE0 equ 0716h ;# ">
+"5252
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5252: __asm("PIE1 equ 0717h");
+[; <" PIE1 equ 0717h ;# ">
+"5314
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5314: __asm("PIE2 equ 0718h");
+[; <" PIE2 equ 0718h ;# ">
+"5347
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5347: __asm("WDTCON equ 080Ch");
+[; <" WDTCON equ 080Ch ;# ">
+"5409
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5409: __asm("BORCON equ 0811h");
+[; <" BORCON equ 0811h ;# ">
+"5436
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5436: __asm("PCON0 equ 0813h");
+[; <" PCON0 equ 0813h ;# ">
+"5493
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5493: __asm("PCON1 equ 0814h");
+[; <" PCON1 equ 0814h ;# ">
+"5514
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5514: __asm("NVMADR equ 081Ah");
+[; <" NVMADR equ 081Ah ;# ">
+"5521
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5521: __asm("NVMADRL equ 081Ah");
+[; <" NVMADRL equ 081Ah ;# ">
+"5541
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5541: __asm("NVMADRH equ 081Bh");
+[; <" NVMADRH equ 081Bh ;# ">
+"5561
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5561: __asm("NVMDAT equ 081Ch");
+[; <" NVMDAT equ 081Ch ;# ">
+"5568
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5568: __asm("NVMDATL equ 081Ch");
+[; <" NVMDATL equ 081Ch ;# ">
+"5588
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5588: __asm("NVMDATH equ 081Dh");
+[; <" NVMDATH equ 081Dh ;# ">
+"5608
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5608: __asm("NVMCON1 equ 081Eh");
+[; <" NVMCON1 equ 081Eh ;# ">
+"5664
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5664: __asm("NVMCON2 equ 081Fh");
+[; <" NVMCON2 equ 081Fh ;# ">
+"5684
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5684: __asm("OSCCON equ 088Eh");
+[; <" OSCCON equ 088Eh ;# ">
+"5749
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5749: __asm("OSCSTAT equ 0890h");
+[; <" OSCSTAT equ 0890h ;# ">
+"5795
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5795: __asm("OSCEN equ 0891h");
+[; <" OSCEN equ 0891h ;# ">
+"5835
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5835: __asm("OSCTUNE equ 0892h");
+[; <" OSCTUNE equ 0892h ;# ">
+"5893
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5893: __asm("OSCFRQ equ 0893h");
+[; <" OSCFRQ equ 0893h ;# ">
+"5933
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5933: __asm("FVRCON equ 090Ch");
+[; <" FVRCON equ 090Ch ;# ">
+"5992
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 5992: __asm("PPSLOCK equ 01E8Fh");
+[; <" PPSLOCK equ 01E8Fh ;# ">
+"6012
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6012: __asm("INTPPS equ 01E90h");
+[; <" INTPPS equ 01E90h ;# ">
+"6072
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6072: __asm("T0CKIPPS equ 01E91h");
+[; <" T0CKIPPS equ 01E91h ;# ">
+"6132
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6132: __asm("T1CKIPPS equ 01E92h");
+[; <" T1CKIPPS equ 01E92h ;# ">
+"6198
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6198: __asm("T1GPPS equ 01E93h");
+[; <" T1GPPS equ 01E93h ;# ">
+"6264
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6264: __asm("T2INPPS equ 01E9Ch");
+[; <" T2INPPS equ 01E9Ch ;# ">
+"6330
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6330: __asm("CCP1PPS equ 01EA1h");
+[; <" CCP1PPS equ 01EA1h ;# ">
+"6396
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6396: __asm("CCP2PPS equ 01EA2h");
+[; <" CCP2PPS equ 01EA2h ;# ">
+"6462
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6462: __asm("ADACTPPS equ 01EC3h");
+[; <" ADACTPPS equ 01EC3h ;# ">
+"6528
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6528: __asm("SSP1CLKPPS equ 01EC5h");
+[; <" SSP1CLKPPS equ 01EC5h ;# ">
+"6594
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6594: __asm("SSP1DATPPS equ 01EC6h");
+[; <" SSP1DATPPS equ 01EC6h ;# ">
+"6660
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6660: __asm("SSP1SSPPS equ 01EC7h");
+[; <" SSP1SSPPS equ 01EC7h ;# ">
+"6726
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6726: __asm("RX1PPS equ 01ECBh");
+[; <" RX1PPS equ 01ECBh ;# ">
+"6731
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6731: __asm("RX1DTPPS equ 01ECBh");
+[; <" RX1DTPPS equ 01ECBh ;# ">
+"6735
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6735: __asm("RXPPS equ 01ECBh");
+[; <" RXPPS equ 01ECBh ;# ">
+"6918
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6918: __asm("CK1PPS equ 01ECCh");
+[; <" CK1PPS equ 01ECCh ;# ">
+"6923
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6923: __asm("TX1CKPPS equ 01ECCh");
+[; <" TX1CKPPS equ 01ECCh ;# ">
+"6927
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 6927: __asm("CKPPS equ 01ECCh");
+[; <" CKPPS equ 01ECCh ;# ">
+"7110
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7110: __asm("RA0PPS equ 01F10h");
+[; <" RA0PPS equ 01F10h ;# ">
+"7168
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7168: __asm("RA1PPS equ 01F11h");
+[; <" RA1PPS equ 01F11h ;# ">
+"7226
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7226: __asm("RA2PPS equ 01F12h");
+[; <" RA2PPS equ 01F12h ;# ">
+"7284
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7284: __asm("RA4PPS equ 01F14h");
+[; <" RA4PPS equ 01F14h ;# ">
+"7342
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7342: __asm("RA5PPS equ 01F15h");
+[; <" RA5PPS equ 01F15h ;# ">
+"7400
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7400: __asm("RB4PPS equ 01F1Ch");
+[; <" RB4PPS equ 01F1Ch ;# ">
+"7458
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7458: __asm("RB5PPS equ 01F1Dh");
+[; <" RB5PPS equ 01F1Dh ;# ">
+"7516
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7516: __asm("RB6PPS equ 01F1Eh");
+[; <" RB6PPS equ 01F1Eh ;# ">
+"7574
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7574: __asm("RB7PPS equ 01F1Fh");
+[; <" RB7PPS equ 01F1Fh ;# ">
+"7632
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7632: __asm("RC0PPS equ 01F20h");
+[; <" RC0PPS equ 01F20h ;# ">
+"7690
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7690: __asm("RC1PPS equ 01F21h");
+[; <" RC1PPS equ 01F21h ;# ">
+"7748
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7748: __asm("RC2PPS equ 01F22h");
+[; <" RC2PPS equ 01F22h ;# ">
+"7806
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7806: __asm("RC3PPS equ 01F23h");
+[; <" RC3PPS equ 01F23h ;# ">
+"7864
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7864: __asm("RC4PPS equ 01F24h");
+[; <" RC4PPS equ 01F24h ;# ">
+"7922
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7922: __asm("RC5PPS equ 01F25h");
+[; <" RC5PPS equ 01F25h ;# ">
+"7980
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 7980: __asm("RC6PPS equ 01F26h");
+[; <" RC6PPS equ 01F26h ;# ">
+"8038
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8038: __asm("RC7PPS equ 01F27h");
+[; <" RC7PPS equ 01F27h ;# ">
+"8096
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8096: __asm("ANSELA equ 01F38h");
+[; <" ANSELA equ 01F38h ;# ">
+"8141
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8141: __asm("WPUA equ 01F39h");
+[; <" WPUA equ 01F39h ;# ">
+"8191
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8191: __asm("ODCONA equ 01F3Ah");
+[; <" ODCONA equ 01F3Ah ;# ">
+"8236
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8236: __asm("SLRCONA equ 01F3Bh");
+[; <" SLRCONA equ 01F3Bh ;# ">
+"8281
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8281: __asm("INLVLA equ 01F3Ch");
+[; <" INLVLA equ 01F3Ch ;# ">
+"8331
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8331: __asm("IOCAP equ 01F3Dh");
+[; <" IOCAP equ 01F3Dh ;# ">
+"8381
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8381: __asm("IOCAN equ 01F3Eh");
+[; <" IOCAN equ 01F3Eh ;# ">
+"8431
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8431: __asm("IOCAF equ 01F3Fh");
+[; <" IOCAF equ 01F3Fh ;# ">
+"8481
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8481: __asm("ANSELB equ 01F43h");
+[; <" ANSELB equ 01F43h ;# ">
+"8520
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8520: __asm("WPUB equ 01F44h");
+[; <" WPUB equ 01F44h ;# ">
+"8559
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8559: __asm("ODCONB equ 01F45h");
+[; <" ODCONB equ 01F45h ;# ">
+"8598
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8598: __asm("SLRCONB equ 01F46h");
+[; <" SLRCONB equ 01F46h ;# ">
+"8637
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8637: __asm("INLVLB equ 01F47h");
+[; <" INLVLB equ 01F47h ;# ">
+"8676
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8676: __asm("IOCBP equ 01F48h");
+[; <" IOCBP equ 01F48h ;# ">
+"8715
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8715: __asm("IOCBN equ 01F49h");
+[; <" IOCBN equ 01F49h ;# ">
+"8754
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8754: __asm("IOCBF equ 01F4Ah");
+[; <" IOCBF equ 01F4Ah ;# ">
+"8793
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8793: __asm("ANSELC equ 01F4Eh");
+[; <" ANSELC equ 01F4Eh ;# ">
+"8855
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8855: __asm("WPUC equ 01F4Fh");
+[; <" WPUC equ 01F4Fh ;# ">
+"8917
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8917: __asm("ODCONC equ 01F50h");
+[; <" ODCONC equ 01F50h ;# ">
+"8979
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 8979: __asm("SLRCONC equ 01F51h");
+[; <" SLRCONC equ 01F51h ;# ">
+"9041
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9041: __asm("INLVLC equ 01F52h");
+[; <" INLVLC equ 01F52h ;# ">
+"9103
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9103: __asm("IOCCP equ 01F53h");
+[; <" IOCCP equ 01F53h ;# ">
+"9165
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9165: __asm("IOCCN equ 01F54h");
+[; <" IOCCN equ 01F54h ;# ">
+"9227
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9227: __asm("IOCCF equ 01F55h");
+[; <" IOCCF equ 01F55h ;# ">
+"9289
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9289: __asm("STATUS_SHAD equ 01FE4h");
+[; <" STATUS_SHAD equ 01FE4h ;# ">
+"9309
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9309: __asm("WREG_SHAD equ 01FE5h");
+[; <" WREG_SHAD equ 01FE5h ;# ">
+"9329
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9329: __asm("BSR_SHAD equ 01FE6h");
+[; <" BSR_SHAD equ 01FE6h ;# ">
+"9349
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9349: __asm("PCLATH_SHAD equ 01FE7h");
+[; <" PCLATH_SHAD equ 01FE7h ;# ">
+"9369
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9369: __asm("FSR0_SHAD equ 01FE8h");
+[; <" FSR0_SHAD equ 01FE8h ;# ">
+"9376
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9376: __asm("FSR0L_SHAD equ 01FE8h");
+[; <" FSR0L_SHAD equ 01FE8h ;# ">
+"9396
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9396: __asm("FSR0H_SHAD equ 01FE9h");
+[; <" FSR0H_SHAD equ 01FE9h ;# ">
+"9416
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9416: __asm("FSR1L_SHAD equ 01FEAh");
+[; <" FSR1L_SHAD equ 01FEAh ;# ">
+"9436
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9436: __asm("FSR1H_SHAD equ 01FEBh");
+[; <" FSR1H_SHAD equ 01FEBh ;# ">
+"9456
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9456: __asm("STKPTR equ 01FEDh");
+[; <" STKPTR equ 01FEDh ;# ">
+"9500
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9500: __asm("TOSL equ 01FEEh");
+[; <" TOSL equ 01FEEh ;# ">
+"9570
+[; ;/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/proc/pic16f15244.h: 9570: __asm("TOSH equ 01FEFh");
+[; <" TOSH equ 01FEFh ;# ">
+"53 ./flex_lcd.h
+[; ;./flex_lcd.h: 53: void Lcd_Init(void){
+[v _Lcd_Init `(v ~T0 @X0 1 ef ]
+{
+[e :U _Lcd_Init ]
+[f ]
+"54
+[; ;./flex_lcd.h: 54: unsigned char data;
+[v _data `uc ~T0 @X0 1 a ]
+"55
+[; ;./flex_lcd.h: 55: TRISCbits.TRISC7 = 0;
+[e = . . _TRISCbits 0 7 -> -> 0 `i `uc ]
+"56
+[; ;./flex_lcd.h: 56: TRISCbits.TRISC6 = 0;
+[e = . . _TRISCbits 0 6 -> -> 0 `i `uc ]
+"57
+[; ;./flex_lcd.h: 57: TRISCbits.TRISC5 = 0;
+[e = . . _TRISCbits 0 5 -> -> 0 `i `uc ]
+"58
+[; ;./flex_lcd.h: 58: TRISCbits.TRISC4 = 0;
+[e = . . _TRISCbits 0 4 -> -> 0 `i `uc ]
+"59
+[; ;./flex_lcd.h: 59: TRISBbits.TRISB6 = 0;
+[e = . . _TRISBbits 0 3 -> -> 0 `i `uc ]
+"60
+[; ;./flex_lcd.h: 60: TRISBbits.TRISB4 = 0;
+[e = . . _TRISBbits 0 1 -> -> 0 `i `uc ]
+"61
+[; ;./flex_lcd.h: 61: PORTCbits.RC7 = 0;
+[e = . . _PORTCbits 0 7 -> -> 0 `i `uc ]
+"62
+[; ;./flex_lcd.h: 62: PORTCbits.RC6 = 0;
+[e = . . _PORTCbits 0 6 -> -> 0 `i `uc ]
+"63
+[; ;./flex_lcd.h: 63: PORTCbits.RC5 = 0;
+[e = . . _PORTCbits 0 5 -> -> 0 `i `uc ]
+"64
+[; ;./flex_lcd.h: 64: PORTCbits.RC4 = 0;
+[e = . . _PORTCbits 0 4 -> -> 0 `i `uc ]
+"65
+[; ;./flex_lcd.h: 65: PORTBbits.RB6 = 0;
+[e = . . _PORTBbits 0 3 -> -> 0 `i `uc ]
+"66
+[; ;./flex_lcd.h: 66: PORTBbits.RB4 = 0;
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+"67
+[; ;./flex_lcd.h: 67: _delay((unsigned long)((5500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 5500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"68
+[; ;./flex_lcd.h: 68: _delay((unsigned long)((5500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 5500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"69
+[; ;./flex_lcd.h: 69: _delay((unsigned long)((5500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 5500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"70
+[; ;./flex_lcd.h: 70: _delay((unsigned long)((5500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 5500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"71
+[; ;./flex_lcd.h: 71: _delay((unsigned long)((5500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 5500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"72
+[; ;./flex_lcd.h: 72: _delay((unsigned long)((5500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 5500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"73
+[; ;./flex_lcd.h: 73: for(data = 1; data < 4; data ++)
+{
+[e = _data -> -> 1 `i `uc ]
+[e $ < -> _data `i -> 4 `i 510  ]
+[e $U 511  ]
+[e :U 510 ]
+"74
+[; ;./flex_lcd.h: 74: {
+{
+"75
+[; ;./flex_lcd.h: 75:     PORTCbits.RC7 = 0; PORTCbits.RC6 = 0; PORTCbits.RC5 = 1; PORTCbits.RC4 = 1; PORTBbits.RB6 = 0;
+[e = . . _PORTCbits 0 7 -> -> 0 `i `uc ]
+[e = . . _PORTCbits 0 6 -> -> 0 `i `uc ]
+[e = . . _PORTCbits 0 5 -> -> 1 `i `uc ]
+[e = . . _PORTCbits 0 4 -> -> 1 `i `uc ]
+[e = . . _PORTBbits 0 3 -> -> 0 `i `uc ]
+"76
+[; ;./flex_lcd.h: 76:     PORTBbits.RB4 = 0; PORTCbits.RC7 = 0; PORTCbits.RC6 = 0; PORTCbits.RC5 = 1; PORTCbits.RC4 = 1;
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+[e = . . _PORTCbits 0 7 -> -> 0 `i `uc ]
+[e = . . _PORTCbits 0 6 -> -> 0 `i `uc ]
+[e = . . _PORTCbits 0 5 -> -> 1 `i `uc ]
+[e = . . _PORTCbits 0 4 -> -> 1 `i `uc ]
+"77
+[; ;./flex_lcd.h: 77:     PORTBbits.RB6 = 1; PORTBbits.RB4 = 0;
+[e = . . _PORTBbits 0 3 -> -> 1 `i `uc ]
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+"78
+[; ;./flex_lcd.h: 78:     _delay((unsigned long)((5)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"79
+[; ;./flex_lcd.h: 79:     PORTCbits.RC7 = 0; PORTCbits.RC6 = 0; PORTCbits.RC5 = 1; PORTCbits.RC4 = 1; PORTBbits.RB6 = 0;
+[e = . . _PORTCbits 0 7 -> -> 0 `i `uc ]
+[e = . . _PORTCbits 0 6 -> -> 0 `i `uc ]
+[e = . . _PORTCbits 0 5 -> -> 1 `i `uc ]
+[e = . . _PORTCbits 0 4 -> -> 1 `i `uc ]
+[e = . . _PORTBbits 0 3 -> -> 0 `i `uc ]
+"80
+[; ;./flex_lcd.h: 80:     PORTBbits.RB4 = 0;
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+"81
+[; ;./flex_lcd.h: 81:     _delay((unsigned long)((5500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 5500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"82
+[; ;./flex_lcd.h: 82: }
+}
+[e ++ _data -> -> 1 `i `uc ]
+[e $ < -> _data `i -> 4 `i 510  ]
+[e :U 511 ]
+}
+"83
+[; ;./flex_lcd.h: 83: PORTCbits.RC7 = 0; PORTCbits.RC6 = 0; PORTCbits.RC5 = 1; PORTCbits.RC4 = 0; PORTBbits.RB6 = 0; PORTBbits.RB4 = 0;
+[e = . . _PORTCbits 0 7 -> -> 0 `i `uc ]
+[e = . . _PORTCbits 0 6 -> -> 0 `i `uc ]
+[e = . . _PORTCbits 0 5 -> -> 1 `i `uc ]
+[e = . . _PORTCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _PORTBbits 0 3 -> -> 0 `i `uc ]
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+"84
+[; ;./flex_lcd.h: 84: PORTCbits.RC7 = 0; PORTCbits.RC6 = 0; PORTCbits.RC5 = 1; PORTCbits.RC4 = 0; PORTBbits.RB6 = 1; PORTBbits.RB4 = 0;
+[e = . . _PORTCbits 0 7 -> -> 0 `i `uc ]
+[e = . . _PORTCbits 0 6 -> -> 0 `i `uc ]
+[e = . . _PORTCbits 0 5 -> -> 1 `i `uc ]
+[e = . . _PORTCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _PORTBbits 0 3 -> -> 1 `i `uc ]
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+"85
+[; ;./flex_lcd.h: 85: _delay((unsigned long)((5)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"86
+[; ;./flex_lcd.h: 86: PORTCbits.RC7 = 0; PORTCbits.RC6 = 0; PORTCbits.RC5 = 1; PORTCbits.RC4 = 0; PORTBbits.RB6 = 0; PORTBbits.RB4 = 0;
+[e = . . _PORTCbits 0 7 -> -> 0 `i `uc ]
+[e = . . _PORTCbits 0 6 -> -> 0 `i `uc ]
+[e = . . _PORTCbits 0 5 -> -> 1 `i `uc ]
+[e = . . _PORTCbits 0 4 -> -> 0 `i `uc ]
+[e = . . _PORTBbits 0 3 -> -> 0 `i `uc ]
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+"87
+[; ;./flex_lcd.h: 87: _delay((unsigned long)((5500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 5500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"88
+[; ;./flex_lcd.h: 88: data = 40; Lcd_Cmd(data);
+[e = _data -> -> 40 `i `uc ]
+[e ( _Lcd_Cmd (1 _data ]
+"89
+[; ;./flex_lcd.h: 89: data = 16; Lcd_Cmd(data);
+[e = _data -> -> 16 `i `uc ]
+[e ( _Lcd_Cmd (1 _data ]
+"90
+[; ;./flex_lcd.h: 90: data = 1; Lcd_Cmd(data);
+[e = _data -> -> 1 `i `uc ]
+[e ( _Lcd_Cmd (1 _data ]
+"91
+[; ;./flex_lcd.h: 91: data = 15; Lcd_Cmd(data);
+[e = _data -> -> 15 `i `uc ]
+[e ( _Lcd_Cmd (1 _data ]
+"92
+[; ;./flex_lcd.h: 92: }
+[e :UE 509 ]
+}
+"95
+[; ;./flex_lcd.h: 95: void Lcd_Out(unsigned char y, unsigned char x, const char *buffer)
+[v _Lcd_Out `(v ~T0 @X0 1 ef3`uc`uc`*Cuc ]
+"96
+[; ;./flex_lcd.h: 96: {
+{
+[e :U _Lcd_Out ]
+"95
+[; ;./flex_lcd.h: 95: void Lcd_Out(unsigned char y, unsigned char x, const char *buffer)
+[v _y `uc ~T0 @X0 1 r1 ]
+[v _x `uc ~T0 @X0 1 r2 ]
+[v _buffer `*Cuc ~T0 @X0 1 r3 ]
+"96
+[; ;./flex_lcd.h: 96: {
+[f ]
+"97
+[; ;./flex_lcd.h: 97: unsigned char data;
+[v _data `uc ~T0 @X0 1 a ]
+"98
+[; ;./flex_lcd.h: 98: switch (y)
+[e $U 515  ]
+"99
+[; ;./flex_lcd.h: 99: {
+{
+"100
+[; ;./flex_lcd.h: 100:     case 1: data = 128 + x; break;
+[e :U 516 ]
+[e = _data -> + -> 128 `i -> _x `i `uc ]
+[e $U 514  ]
+"101
+[; ;./flex_lcd.h: 101:     case 2: data = 192 + x; break;
+[e :U 517 ]
+[e = _data -> + -> 192 `i -> _x `i `uc ]
+[e $U 514  ]
+"102
+[; ;./flex_lcd.h: 102:     case 3: data = 148 + x; break;
+[e :U 518 ]
+[e = _data -> + -> 148 `i -> _x `i `uc ]
+[e $U 514  ]
+"103
+[; ;./flex_lcd.h: 103:     case 4: data = 212 + x; break;
+[e :U 519 ]
+[e = _data -> + -> 212 `i -> _x `i `uc ]
+[e $U 514  ]
+"104
+[; ;./flex_lcd.h: 104:     default: break;
+[e :U 520 ]
+[e $U 514  ]
+"105
+[; ;./flex_lcd.h: 105: }
+}
+[e $U 514  ]
+[e :U 515 ]
+[e [\ -> _y `i , $ -> 1 `i 516
+ , $ -> 2 `i 517
+ , $ -> 3 `i 518
+ , $ -> 4 `i 519
+ 520 ]
+[e :U 514 ]
+"106
+[; ;./flex_lcd.h: 106: Lcd_Cmd(data);
+[e ( _Lcd_Cmd (1 _data ]
+"107
+[; ;./flex_lcd.h: 107: while(*buffer)
+[e $U 521  ]
+[e :U 522 ]
+"108
+[; ;./flex_lcd.h: 108: {
+{
+"109
+[; ;./flex_lcd.h: 109:     Lcd_Chr_CP(*buffer);
+[e ( _Lcd_Chr_CP (1 *U _buffer ]
+"110
+[; ;./flex_lcd.h: 110:     buffer++;
+[e ++ _buffer * -> -> 1 `i `x -> -> # *U _buffer `i `x ]
+"111
+[; ;./flex_lcd.h: 111: }
+}
+[e :U 521 ]
+"107
+[; ;./flex_lcd.h: 107: while(*buffer)
+[e $ != -> *U _buffer `i -> 0 `i 522  ]
+[e :U 523 ]
+"112
+[; ;./flex_lcd.h: 112: return;
+[e $UE 513  ]
+"113
+[; ;./flex_lcd.h: 113: }
+[e :UE 513 ]
+}
+"116
+[; ;./flex_lcd.h: 116: void Lcd_Out2(unsigned char y, unsigned char x, char *buffer)
+[v _Lcd_Out2 `(v ~T0 @X0 1 ef3`uc`uc`*uc ]
+"117
+[; ;./flex_lcd.h: 117: {
+{
+[e :U _Lcd_Out2 ]
+"116
+[; ;./flex_lcd.h: 116: void Lcd_Out2(unsigned char y, unsigned char x, char *buffer)
+[v _y `uc ~T0 @X0 1 r1 ]
+[v _x `uc ~T0 @X0 1 r2 ]
+[v _buffer `*uc ~T0 @X0 1 r3 ]
+"117
+[; ;./flex_lcd.h: 117: {
+[f ]
+"118
+[; ;./flex_lcd.h: 118: unsigned char data;
+[v _data `uc ~T0 @X0 1 a ]
+"119
+[; ;./flex_lcd.h: 119: switch (y)
+[e $U 526  ]
+"120
+[; ;./flex_lcd.h: 120: {
+{
+"121
+[; ;./flex_lcd.h: 121:     case 1: data = 128 + x; break;
+[e :U 527 ]
+[e = _data -> + -> 128 `i -> _x `i `uc ]
+[e $U 525  ]
+"122
+[; ;./flex_lcd.h: 122:     case 2: data = 192 + x; break;
+[e :U 528 ]
+[e = _data -> + -> 192 `i -> _x `i `uc ]
+[e $U 525  ]
+"123
+[; ;./flex_lcd.h: 123:     case 3: data = 148 + x; break;
+[e :U 529 ]
+[e = _data -> + -> 148 `i -> _x `i `uc ]
+[e $U 525  ]
+"124
+[; ;./flex_lcd.h: 124:     case 4: data = 212 + x; break;
+[e :U 530 ]
+[e = _data -> + -> 212 `i -> _x `i `uc ]
+[e $U 525  ]
+"125
+[; ;./flex_lcd.h: 125:     default: break;
+[e :U 531 ]
+[e $U 525  ]
+"126
+[; ;./flex_lcd.h: 126: }
+}
+[e $U 525  ]
+[e :U 526 ]
+[e [\ -> _y `i , $ -> 1 `i 527
+ , $ -> 2 `i 528
+ , $ -> 3 `i 529
+ , $ -> 4 `i 530
+ 531 ]
+[e :U 525 ]
+"127
+[; ;./flex_lcd.h: 127: Lcd_Cmd(data);
+[e ( _Lcd_Cmd (1 _data ]
+"128
+[; ;./flex_lcd.h: 128: while(*buffer)
+[e $U 532  ]
+[e :U 533 ]
+"129
+[; ;./flex_lcd.h: 129: {
+{
+"130
+[; ;./flex_lcd.h: 130:     Lcd_Chr_CP(*buffer);
+[e ( _Lcd_Chr_CP (1 *U _buffer ]
+"131
+[; ;./flex_lcd.h: 131:     buffer++;
+[e ++ _buffer * -> -> 1 `i `x -> -> # *U _buffer `i `x ]
+"132
+[; ;./flex_lcd.h: 132: }
+}
+[e :U 532 ]
+"128
+[; ;./flex_lcd.h: 128: while(*buffer)
+[e $ != -> *U _buffer `i -> 0 `i 533  ]
+[e :U 534 ]
+"133
+[; ;./flex_lcd.h: 133: return;
+[e $UE 524  ]
+"134
+[; ;./flex_lcd.h: 134: }
+[e :UE 524 ]
+}
+"137
+[; ;./flex_lcd.h: 137: void Lcd_Chr_CP(char data){
+[v _Lcd_Chr_CP `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _Lcd_Chr_CP ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+"138
+[; ;./flex_lcd.h: 138: PORTBbits.RB6 = 0; PORTBbits.RB4 = 1;
+[e = . . _PORTBbits 0 3 -> -> 0 `i `uc ]
+[e = . . _PORTBbits 0 1 -> -> 1 `i `uc ]
+"139
+[; ;./flex_lcd.h: 139: PORTCbits.RC7 = (data & 0b10000000)>>7; PORTCbits.RC6 = (data & 0b01000000)>>6;
+[e = . . _PORTCbits 0 7 -> >> & -> _data `i -> 128 `i -> 7 `i `uc ]
+[e = . . _PORTCbits 0 6 -> >> & -> _data `i -> 64 `i -> 6 `i `uc ]
+"140
+[; ;./flex_lcd.h: 140: PORTCbits.RC5 = (data & 0b00100000)>>5; PORTCbits.RC4 = (data & 0b00010000)>>4;
+[e = . . _PORTCbits 0 5 -> >> & -> _data `i -> 32 `i -> 5 `i `uc ]
+[e = . . _PORTCbits 0 4 -> >> & -> _data `i -> 16 `i -> 4 `i `uc ]
+"141
+[; ;./flex_lcd.h: 141: _delay(10);
+[e ( __delay (1 -> -> -> 10 `i `l `ul ]
+"142
+[; ;./flex_lcd.h: 142: PORTBbits.RB6 = 1; _delay((unsigned long)((5)*(1000000/4000000.0))); PORTBbits.RB6 = 0;
+[e = . . _PORTBbits 0 3 -> -> 1 `i `uc ]
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTBbits 0 3 -> -> 0 `i `uc ]
+"143
+[; ;./flex_lcd.h: 143: PORTCbits.RC7 = (data & 0b00001000)>>3; PORTCbits.RC6 = (data & 0b00000100)>>2;
+[e = . . _PORTCbits 0 7 -> >> & -> _data `i -> 8 `i -> 3 `i `uc ]
+[e = . . _PORTCbits 0 6 -> >> & -> _data `i -> 4 `i -> 2 `i `uc ]
+"144
+[; ;./flex_lcd.h: 144: PORTCbits.RC5 = (data & 0b00000010)>>1; PORTCbits.RC4 = (data & 0b00000001);
+[e = . . _PORTCbits 0 5 -> >> & -> _data `i -> 2 `i -> 1 `i `uc ]
+[e = . . _PORTCbits 0 4 -> & -> _data `i -> 1 `i `uc ]
+"145
+[; ;./flex_lcd.h: 145: _delay(10);
+[e ( __delay (1 -> -> -> 10 `i `l `ul ]
+"146
+[; ;./flex_lcd.h: 146: PORTBbits.RB6 = 1; _delay((unsigned long)((5)*(1000000/4000000.0))); PORTBbits.RB6 = 0;
+[e = . . _PORTBbits 0 3 -> -> 1 `i `uc ]
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTBbits 0 3 -> -> 0 `i `uc ]
+"147
+[; ;./flex_lcd.h: 147: _delay((unsigned long)((5)*(1000000/4000000.0))); _delay((unsigned long)((5500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+[e ( __delay (1 -> * -> -> 5500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"148
+[; ;./flex_lcd.h: 148: }
+[e :UE 535 ]
+}
+"151
+[; ;./flex_lcd.h: 151: void Lcd_Cmd(unsigned char data){
+[v _Lcd_Cmd `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _Lcd_Cmd ]
+[v _data `uc ~T0 @X0 1 r1 ]
+[f ]
+"152
+[; ;./flex_lcd.h: 152: PORTBbits.RB6 = 0; PORTBbits.RB4 = 0;
+[e = . . _PORTBbits 0 3 -> -> 0 `i `uc ]
+[e = . . _PORTBbits 0 1 -> -> 0 `i `uc ]
+"153
+[; ;./flex_lcd.h: 153: PORTCbits.RC7 = (data & 0b10000000)>>7; PORTCbits.RC6 = (data & 0b01000000)>>6;
+[e = . . _PORTCbits 0 7 -> >> & -> _data `i -> 128 `i -> 7 `i `uc ]
+[e = . . _PORTCbits 0 6 -> >> & -> _data `i -> 64 `i -> 6 `i `uc ]
+"154
+[; ;./flex_lcd.h: 154: PORTCbits.RC5 = (data & 0b00100000)>>5; PORTCbits.RC4 = (data & 0b00010000)>>4;
+[e = . . _PORTCbits 0 5 -> >> & -> _data `i -> 32 `i -> 5 `i `uc ]
+[e = . . _PORTCbits 0 4 -> >> & -> _data `i -> 16 `i -> 4 `i `uc ]
+"155
+[; ;./flex_lcd.h: 155: _delay(10);
+[e ( __delay (1 -> -> -> 10 `i `l `ul ]
+"156
+[; ;./flex_lcd.h: 156: PORTBbits.RB6 = 1; _delay((unsigned long)((5)*(1000000/4000000.0))); PORTBbits.RB6 = 0;
+[e = . . _PORTBbits 0 3 -> -> 1 `i `uc ]
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTBbits 0 3 -> -> 0 `i `uc ]
+"157
+[; ;./flex_lcd.h: 157: PORTCbits.RC7 = (data & 0b00001000)>>3; PORTCbits.RC6 = (data & 0b00000100)>>2;
+[e = . . _PORTCbits 0 7 -> >> & -> _data `i -> 8 `i -> 3 `i `uc ]
+[e = . . _PORTCbits 0 6 -> >> & -> _data `i -> 4 `i -> 2 `i `uc ]
+"158
+[; ;./flex_lcd.h: 158: PORTCbits.RC5 = (data & 0b00000010)>>1; PORTCbits.RC4 = (data & 0b00000001);
+[e = . . _PORTCbits 0 5 -> >> & -> _data `i -> 2 `i -> 1 `i `uc ]
+[e = . . _PORTCbits 0 4 -> & -> _data `i -> 1 `i `uc ]
+"159
+[; ;./flex_lcd.h: 159: _delay(10);
+[e ( __delay (1 -> -> -> 10 `i `l `ul ]
+"160
+[; ;./flex_lcd.h: 160: PORTBbits.RB6 = 1; _delay((unsigned long)((5)*(1000000/4000000.0))); PORTBbits.RB6 = 0;
+[e = . . _PORTBbits 0 3 -> -> 1 `i `uc ]
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+[e = . . _PORTBbits 0 3 -> -> 0 `i `uc ]
+"161
+[; ;./flex_lcd.h: 161: _delay((unsigned long)((5500)*(1000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 5500 `i `d / -> -> 1000000 `l `d .4000000.0 `ul ]
+"162
+[; ;./flex_lcd.h: 162: }
+[e :UE 536 ]
+}
+"26 Control_paso.c
+[p x FEXTOSC  =  OFF  ]
+"27
+[p x RSTOSC  =  HFINTOSC_1MHZ  ]
+"28
+[p x CLKOUTEN  =  OFF  ]
+"29
+[p x VDDAR  =  HI  ]
+"32
+[p x MCLRE  =  EXTMCLR  ]
+"33
+[p x PWRTS  =  PWRT_OFF  ]
+"34
+[p x WDTE  =  OFF  ]
+"35
+[p x BOREN  =  ON  ]
+"36
+[p x BORV  =  LO  ]
+"37
+[p x PPS1WAY  =  ON  ]
+"38
+[p x STVREN  =  ON  ]
+"41
+[p x BBSIZE  =  BB512  ]
+"42
+[p x BBEN  =  OFF  ]
+"43
+[p x SAFEN  =  OFF  ]
+"44
+[p x WRTAPP  =  OFF  ]
+"45
+[p x WRTB  =  OFF  ]
+"46
+[p x WRTC  =  OFF  ]
+"47
+[p x WRTSAF  =  OFF  ]
+"48
+[p x LVP  =  ON  ]
+"51
+[p x CP  =  OFF  ]
+"66
+[; ;Control_paso.c: 66: void PIN_MANAGER_Initialize(void)
+[v _PIN_MANAGER_Initialize `(v ~T0 @X0 1 ef ]
+"67
+[; ;Control_paso.c: 67: {
+{
+[e :U _PIN_MANAGER_Initialize ]
+[f ]
+"69
+[; ;Control_paso.c: 69:   LATA = 0x00;
+[e = _LATA -> -> 0 `i `uc ]
+"70
+[; ;Control_paso.c: 70:   LATB = 0x00;
+[e = _LATB -> -> 0 `i `uc ]
+"71
+[; ;Control_paso.c: 71:   LATC = 0x00;
+[e = _LATC -> -> 0 `i `uc ]
+"74
+[; ;Control_paso.c: 74:   TRISA = 0b00110000;
+[e = _TRISA -> -> 48 `i `uc ]
+"75
+[; ;Control_paso.c: 75:   TRISB = 0b10100000;
+[e = _TRISB -> -> 160 `i `uc ]
+"76
+[; ;Control_paso.c: 76:   TRISC = 0b00000100;
+[e = _TRISC -> -> 4 `i `uc ]
+"79
+[; ;Control_paso.c: 79:   ANSELC = 0;
+[e = _ANSELC -> -> 0 `i `uc ]
+"80
+[; ;Control_paso.c: 80:   ANSELB = 0;
+[e = _ANSELB -> -> 0 `i `uc ]
+"81
+[; ;Control_paso.c: 81:   ANSELA = 0;
+[e = _ANSELA -> -> 0 `i `uc ]
+"88
+[; ;Control_paso.c: 88:   WPUC = 0x04;
+[e = _WPUC -> -> 4 `i `uc ]
+"91
+[; ;Control_paso.c: 91:   ODCONA = 0x04;
+[e = _ODCONA -> -> 4 `i `uc ]
+"92
+[; ;Control_paso.c: 92:   ODCONB = 0x00;
+[e = _ODCONB -> -> 0 `i `uc ]
+"93
+[; ;Control_paso.c: 93:   ODCONC = 0x00;
+[e = _ODCONC -> -> 0 `i `uc ]
+"96
+[; ;Control_paso.c: 96:   SLRCONA = 0x37;
+[e = _SLRCONA -> -> 55 `i `uc ]
+"97
+[; ;Control_paso.c: 97:   SLRCONB = 0xFF;
+[e = _SLRCONB -> -> 255 `i `uc ]
+"98
+[; ;Control_paso.c: 98:   SLRCONC = 0xFF;
+[e = _SLRCONC -> -> 255 `i `uc ]
+"101
+[; ;Control_paso.c: 101:   INLVLA = 0x3F;
+[e = _INLVLA -> -> 63 `i `uc ]
+"102
+[; ;Control_paso.c: 102:   INLVLB = 0xFF;
+[e = _INLVLB -> -> 255 `i `uc ]
+"103
+[; ;Control_paso.c: 103:   INLVLC = 0xFF;
+[e = _INLVLC -> -> 255 `i `uc ]
+"105
+[; ;Control_paso.c: 105: }
+[e :UE 537 ]
+}
+"107
+[; ;Control_paso.c: 107: uint8_t contador = 0;
+[v _contador `uc ~T0 @X0 1 e ]
+[i _contador
+-> -> 0 `i `uc
+]
+"108
+[; ;Control_paso.c: 108: uint8_t MAX = 50;
+[v _MAX `uc ~T0 @X0 1 e ]
+[i _MAX
+-> -> 50 `i `uc
+]
+"109
+[; ;Control_paso.c: 109: char s[20];
+[v _s `uc ~T0 @X0 -> 20 `i e ]
+"112
+[; ;Control_paso.c: 112: void menu(void) {
+[v _menu `(v ~T0 @X0 1 ef ]
+{
+[e :U _menu ]
+[f ]
+"114
+[; ;Control_paso.c: 114:   uint24_t variable = 0;
+[v _variable `um ~T0 @X0 1 a ]
+[e = _variable -> -> -> 0 `i `m `um ]
+"115
+[; ;Control_paso.c: 115:   _Bool operacion = 0;
+[v _operacion `a ~T0 @X0 1 a ]
+[e = _operacion -> -> 0 `i `a ]
+"116
+[; ;Control_paso.c: 116:   int ok = 0;
+[v _ok `i ~T0 @X0 1 a ]
+[e = _ok -> 0 `i ]
+"117
+[; ;Control_paso.c: 117:   while (1) {
+[e :U 540 ]
+{
+"120
+[; ;Control_paso.c: 120:     if (PORTCbits.RC2 == 0) {
+[e $ ! == -> . . _PORTCbits 0 2 `i -> 0 `i 542  ]
+{
+"121
+[; ;Control_paso.c: 121:       _delay((unsigned long)((1000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"122
+[; ;Control_paso.c: 122:       if (PORTCbits.RC2!= 0) {
+[e $ ! != -> . . _PORTCbits 0 2 `i -> 0 `i 543  ]
+{
+"123
+[; ;Control_paso.c: 123:         operacion = !operacion;
+[e = _operacion -> -> ! != -> _operacion `i -> 0 `i `i `a ]
+"125
+[; ;Control_paso.c: 125:         if (operacion) {
+[e $ ! != -> _operacion `i -> 0 `i 544  ]
+{
+"126
+[; ;Control_paso.c: 126:           Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
+"127
+[; ;Control_paso.c: 127:           sprintf(s, "AJUSTE ");
+[e ( _sprintf (1 , &U _s :s 1C ]
+"128
+[; ;Control_paso.c: 128:           Lcd_Out2(1, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _s ]
+"129
+[; ;Control_paso.c: 129:           sprintf(s, "LIMITE PERSONAS");
+[e ( _sprintf (1 , &U _s :s 2C ]
+"130
+[; ;Control_paso.c: 130:           Lcd_Out2(2, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 0 `i `uc &U _s ]
+"131
+[; ;Control_paso.c: 131:         }
+}
+[e $U 545  ]
+"132
+[; ;Control_paso.c: 132:         else {
+[e :U 544 ]
+{
+"133
+[; ;Control_paso.c: 133:           _delay((unsigned long)((500)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"134
+[; ;Control_paso.c: 134:         }
+}
+[e :U 545 ]
+"135
+[; ;Control_paso.c: 135:       }
+}
+[e :U 543 ]
+"136
+[; ;Control_paso.c: 136:     }
+}
+[e :U 542 ]
+"139
+[; ;Control_paso.c: 139:     while (PORTCbits.RC2 == 0) {
+[e $U 546  ]
+[e :U 547 ]
+{
+"140
+[; ;Control_paso.c: 140:       variable++;
+[e ++ _variable -> -> -> 1 `i `m `um ]
+"141
+[; ;Control_paso.c: 141:       if (variable == 34723) {
+[e $ ! == -> _variable `l -> 34723 `l 549  ]
+{
+"142
+[; ;Control_paso.c: 142:         variable = 0;
+[e = _variable -> -> -> 0 `i `m `um ]
+"143
+[; ;Control_paso.c: 143:         Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
+"144
+[; ;Control_paso.c: 144:         sprintf(s, "ELIJA");
+[e ( _sprintf (1 , &U _s :s 3C ]
+"145
+[; ;Control_paso.c: 145:         Lcd_Out2(1, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _s ]
+"146
+[; ;Control_paso.c: 146:         sprintf(s, "LIMITE PERSONAS");
+[e ( _sprintf (1 , &U _s :s 4C ]
+"147
+[; ;Control_paso.c: 147:         Lcd_Out2(2, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 0 `i `uc &U _s ]
+"148
+[; ;Control_paso.c: 148:        _delay((unsigned long)((2000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 2000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"150
+[; ;Control_paso.c: 150:         while (1) {
+[e :U 551 ]
+{
+"152
+[; ;Control_paso.c: 152:           if (PORTCbits.RC2 == 0) {
+[e $ ! == -> . . _PORTCbits 0 2 `i -> 0 `i 553  ]
+{
+"153
+[; ;Control_paso.c: 153:             _delay((unsigned long)((1000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"154
+[; ;Control_paso.c: 154:             if (PORTCbits.RC2 != 0) {
+[e $ ! != -> . . _PORTCbits 0 2 `i -> 0 `i 554  ]
+{
+"155
+[; ;Control_paso.c: 155:               if (operacion == 1) {
+[e $ ! == -> _operacion `i -> 1 `i 555  ]
+{
+"156
+[; ;Control_paso.c: 156:                   if(MAX==255){
+[e $ ! == -> _MAX `i -> 255 `i 556  ]
+{
+"157
+[; ;Control_paso.c: 157:                       MAX=255;
+[e = _MAX -> -> 255 `i `uc ]
+"158
+[; ;Control_paso.c: 158:                   }
+}
+[e $U 557  ]
+"159
+[; ;Control_paso.c: 159:                   else{
+[e :U 556 ]
+{
+"160
+[; ;Control_paso.c: 160:                       MAX=MAX+10;
+[e = _MAX -> + -> _MAX `i -> 10 `i `uc ]
+"161
+[; ;Control_paso.c: 161:                   }
+}
+[e :U 557 ]
+"163
+[; ;Control_paso.c: 163:                 Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
+"164
+[; ;Control_paso.c: 164:                 sprintf(s, "Configuracion");
+[e ( _sprintf (1 , &U _s :s 5C ]
+"165
+[; ;Control_paso.c: 165:                 Lcd_Out2(1, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _s ]
+"166
+[; ;Control_paso.c: 166:                 sprintf(s, "Maximo: %d", MAX);
+[e ( _sprintf (1 , (. , &U _s :s 6C -> _MAX `i ]
+"167
+[; ;Control_paso.c: 167:                 Lcd_Out2(2, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 0 `i `uc &U _s ]
+"169
+[; ;Control_paso.c: 169:               } else {
+}
+[e $U 558  ]
+[e :U 555 ]
+{
+"170
+[; ;Control_paso.c: 170:                 if (MAX == 0) {
+[e $ ! == -> _MAX `i -> 0 `i 559  ]
+{
+"171
+[; ;Control_paso.c: 171:                   MAX = 0;
+[e = _MAX -> -> 0 `i `uc ]
+"172
+[; ;Control_paso.c: 172:                 } else {
+}
+[e $U 560  ]
+[e :U 559 ]
+{
+"173
+[; ;Control_paso.c: 173:                   MAX = MAX - 10;
+[e = _MAX -> - -> _MAX `i -> 10 `i `uc ]
+"175
+[; ;Control_paso.c: 175:                 }
+}
+[e :U 560 ]
+"176
+[; ;Control_paso.c: 176:                 if(MAX==0){
+[e $ ! == -> _MAX `i -> 0 `i 561  ]
+{
+"177
+[; ;Control_paso.c: 177:                     MAX=50;
+[e = _MAX -> -> 50 `i `uc ]
+"178
+[; ;Control_paso.c: 178:                 }
+}
+[e :U 561 ]
+"179
+[; ;Control_paso.c: 179:                 Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
+"180
+[; ;Control_paso.c: 180:                  sprintf(s, "Configuracion");
+[e ( _sprintf (1 , &U _s :s 7C ]
+"181
+[; ;Control_paso.c: 181:                 Lcd_Out2(1, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _s ]
+"182
+[; ;Control_paso.c: 182:                 sprintf(s, "Maximo: %d", MAX);
+[e ( _sprintf (1 , (. , &U _s :s 8C -> _MAX `i ]
+"183
+[; ;Control_paso.c: 183:                 Lcd_Out2(2, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 0 `i `uc &U _s ]
+"184
+[; ;Control_paso.c: 184:               }
+}
+[e :U 558 ]
+"186
+[; ;Control_paso.c: 186:             }
+}
+[e :U 554 ]
+"187
+[; ;Control_paso.c: 187:           }
+}
+[e :U 553 ]
+"188
+[; ;Control_paso.c: 188:           while (PORTCbits.RC2 == 0) {
+[e $U 562  ]
+[e :U 563 ]
+{
+"189
+[; ;Control_paso.c: 189:             variable++;
+[e ++ _variable -> -> -> 1 `i `m `um ]
+"190
+[; ;Control_paso.c: 190:             if (variable == 44643) {
+[e $ ! == -> _variable `l -> 44643 `l 565  ]
+{
+"191
+[; ;Control_paso.c: 191:              variable = 0;
+[e = _variable -> -> -> 0 `i `m `um ]
+"192
+[; ;Control_paso.c: 192:              ok = 1;
+[e = _ok -> 1 `i ]
+"193
+[; ;Control_paso.c: 193:              Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
+"194
+[; ;Control_paso.c: 194:              break;
+[e $U 564  ]
+"195
+[; ;Control_paso.c: 195:             }
+}
+[e :U 565 ]
+"196
+[; ;Control_paso.c: 196:           }
+}
+[e :U 562 ]
+"188
+[; ;Control_paso.c: 188:           while (PORTCbits.RC2 == 0) {
+[e $ == -> . . _PORTCbits 0 2 `i -> 0 `i 563  ]
+[e :U 564 ]
+"197
+[; ;Control_paso.c: 197:           variable=0;
+[e = _variable -> -> -> 0 `i `m `um ]
+"198
+[; ;Control_paso.c: 198:           if (ok == 1) {
+[e $ ! == _ok -> 1 `i 566  ]
+{
+"199
+[; ;Control_paso.c: 199:             ok = 2;
+[e = _ok -> 2 `i ]
+"200
+[; ;Control_paso.c: 200:             break;
+[e $U 552  ]
+"201
+[; ;Control_paso.c: 201:           }
+}
+[e :U 566 ]
+"202
+[; ;Control_paso.c: 202:         }
+}
+[e :U 550 ]
+[e $U 551  ]
+[e :U 552 ]
+"203
+[; ;Control_paso.c: 203:       }
+}
+[e :U 549 ]
+"204
+[; ;Control_paso.c: 204:       if (ok == 2) {
+[e $ ! == _ok -> 2 `i 567  ]
+{
+"205
+[; ;Control_paso.c: 205:         ok = 3;
+[e = _ok -> 3 `i ]
+"206
+[; ;Control_paso.c: 206:         break;
+[e $U 548  ]
+"207
+[; ;Control_paso.c: 207:       }
+}
+[e :U 567 ]
+"208
+[; ;Control_paso.c: 208:     }
+}
+[e :U 546 ]
+"139
+[; ;Control_paso.c: 139:     while (PORTCbits.RC2 == 0) {
+[e $ == -> . . _PORTCbits 0 2 `i -> 0 `i 547  ]
+[e :U 548 ]
+"209
+[; ;Control_paso.c: 209:     variable = 0;
+[e = _variable -> -> -> 0 `i `m `um ]
+"210
+[; ;Control_paso.c: 210:     if (ok == 3) {
+[e $ ! == _ok -> 3 `i 568  ]
+{
+"211
+[; ;Control_paso.c: 211:       ok = 4;
+[e = _ok -> 4 `i ]
+"212
+[; ;Control_paso.c: 212:       Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
+"213
+[; ;Control_paso.c: 213:       sprintf(s, "Modo contador ");
+[e ( _sprintf (1 , &U _s :s 9C ]
+"214
+[; ;Control_paso.c: 214:       Lcd_Out2(1, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _s ]
+"215
+[; ;Control_paso.c: 215:       LATAbits.LATA2 = 1;
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+"216
+[; ;Control_paso.c: 216:       _delay((unsigned long)((1000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"217
+[; ;Control_paso.c: 217:       break;
+[e $U 541  ]
+"218
+[; ;Control_paso.c: 218:      }
+}
+[e :U 568 ]
+"220
+[; ;Control_paso.c: 220:   }
+}
+[e :U 539 ]
+[e $U 540  ]
+[e :U 541 ]
+"222
+[; ;Control_paso.c: 222: }
+[e :UE 538 ]
+}
+"224
+[; ;Control_paso.c: 224: char CONT[20];
+[v _CONT `uc ~T0 @X0 -> 20 `i e ]
+"225
+[; ;Control_paso.c: 225: int contado=0;
+[v _contado `i ~T0 @X0 1 e ]
+[i _contado
+-> 0 `i
+]
+"226
+[; ;Control_paso.c: 226: uint24_t S;
+[v _S `um ~T0 @X0 1 e ]
+"227
+[; ;Control_paso.c: 227: uint24_t selec=0;
+[v _selec `um ~T0 @X0 1 e ]
+[i _selec
+-> -> -> 0 `i `m `um
+]
+"228
+[; ;Control_paso.c: 228: const int LDR=950;
+[v _LDR `Ci ~T0 @X0 1 e ]
+[i _LDR
+-> 950 `i
+]
+"229
+[; ;Control_paso.c: 229: _Bool S_1=0;
+[v _S_1 `a ~T0 @X0 1 e ]
+[i _S_1
+-> -> 0 `i `a
+]
+"230
+[; ;Control_paso.c: 230: _Bool S_2=0;
+[v _S_2 `a ~T0 @X0 1 e ]
+[i _S_2
+-> -> 0 `i `a
+]
+"231
+[; ;Control_paso.c: 231: int SU=0;
+[v _SU `i ~T0 @X0 1 e ]
+[i _SU
+-> 0 `i
+]
+[v $root$_main `(v ~T0 @X0 0 e ]
+"234
+[; ;Control_paso.c: 234: void main(void)
+[v _main `(v ~T0 @X0 1 ef ]
+"235
+[; ;Control_paso.c: 235: {
+{
+[e :U _main ]
+[f ]
+"236
+[; ;Control_paso.c: 236:     PIN_MANAGER_Initialize();
+[e ( _PIN_MANAGER_Initialize ..  ]
+"238
+[; ;Control_paso.c: 238:     LATAbits.LATA1=0;
+[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
+"241
+[; ;Control_paso.c: 241:     Lcd_Init();
+[e ( _Lcd_Init ..  ]
+"242
+[; ;Control_paso.c: 242:     Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
+"243
+[; ;Control_paso.c: 243:     Lcd_Cmd(12);
+[e ( _Lcd_Cmd (1 -> -> 12 `i `uc ]
+"245
+[; ;Control_paso.c: 245:     _delay((unsigned long)((600)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 600 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"246
+[; ;Control_paso.c: 246:       Lcd_Out(2,2,"BuenDia");
+[e ( _Lcd_Out (3 , , -> -> 2 `i `uc -> -> 2 `i `uc :s 10C ]
+"247
+[; ;Control_paso.c: 247:       _delay((unsigned long)((500)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"248
+[; ;Control_paso.c: 248:     while(1){
+[e :U 571 ]
+{
+"251
+[; ;Control_paso.c: 251:       if(PORTBbits.RB5==0){
+[e $ ! == -> . . _PORTBbits 0 2 `i -> 0 `i 573  ]
+{
+"252
+[; ;Control_paso.c: 252:          contado++;
+[e ++ _contado -> 1 `i ]
+"253
+[; ;Control_paso.c: 253:         }
+}
+[e :U 573 ]
+"254
+[; ;Control_paso.c: 254:       sprintf(CONT, "NumPersonas %0d",contado);
+[e ( _sprintf (1 , (. , &U _CONT :s 11C _contado ]
+"255
+[; ;Control_paso.c: 255:         Lcd_Out2(1,2,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 2 `i `uc &U _CONT ]
+"256
+[; ;Control_paso.c: 256:         sprintf(CONT, "LIMITE %d",MAX);
+[e ( _sprintf (1 , (. , &U _CONT :s 12C -> _MAX `i ]
+"257
+[; ;Control_paso.c: 257:        Lcd_Out2(2,1,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 1 `i `uc &U _CONT ]
+"258
+[; ;Control_paso.c: 258:         _delay((unsigned long)((100)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"263
+[; ;Control_paso.c: 263:      if(PORTBbits.RB7==0){
+[e $ ! == -> . . _PORTBbits 0 4 `i -> 0 `i 574  ]
+{
+"264
+[; ;Control_paso.c: 264:          contado--;
+[e -- _contado -> 1 `i ]
+"265
+[; ;Control_paso.c: 265:         }
+}
+[e :U 574 ]
+"266
+[; ;Control_paso.c: 266:       sprintf(CONT, "NumPersonas %0d",contado);
+[e ( _sprintf (1 , (. , &U _CONT :s 13C _contado ]
+"267
+[; ;Control_paso.c: 267:         Lcd_Out2(1,2,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 2 `i `uc &U _CONT ]
+"268
+[; ;Control_paso.c: 268:         sprintf(CONT, "LIMITE %d",MAX);
+[e ( _sprintf (1 , (. , &U _CONT :s 14C -> _MAX `i ]
+"269
+[; ;Control_paso.c: 269:        Lcd_Out2(2,1,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 1 `i `uc &U _CONT ]
+"270
+[; ;Control_paso.c: 270:         _delay((unsigned long)((100)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"274
+[; ;Control_paso.c: 274:         if(PORTCbits.RC2==0){
+[e $ ! == -> . . _PORTCbits 0 2 `i -> 0 `i 575  ]
+{
+"275
+[; ;Control_paso.c: 275:             _delay((unsigned long)((500)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"276
+[; ;Control_paso.c: 276:             if(PORTCbits.RC2!=0){
+[e $ ! != -> . . _PORTCbits 0 2 `i -> 0 `i 576  ]
+{
+"277
+[; ;Control_paso.c: 277:                 sprintf(CONT,"CONTAR",contado);
+[e ( _sprintf (1 , (. , &U _CONT :s 15C _contado ]
+"278
+[; ;Control_paso.c: 278:                 Lcd_Out2(1,0,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _CONT ]
+"279
+[; ;Control_paso.c: 279:             }
+}
+[e :U 576 ]
+"280
+[; ;Control_paso.c: 280:         }
+}
+[e :U 575 ]
+"282
+[; ;Control_paso.c: 282:     while(PORTCbits.RC2==0){
+[e $U 577  ]
+[e :U 578 ]
+{
+"283
+[; ;Control_paso.c: 283:         selec++;
+[e ++ _selec -> -> -> 1 `i `m `um ]
+"284
+[; ;Control_paso.c: 284:         if(selec==3000){
+[e $ ! == _selec -> -> -> 3000 `i `m `um 580  ]
+{
+"285
+[; ;Control_paso.c: 285:             selec=0;
+[e = _selec -> -> -> 0 `i `m `um ]
+"286
+[; ;Control_paso.c: 286:             Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
+"287
+[; ;Control_paso.c: 287:             sprintf(CONT,"AJUSTAR");
+[e ( _sprintf (1 , &U _CONT :s 16C ]
+"288
+[; ;Control_paso.c: 288:             Lcd_Out2(1, 0, CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _CONT ]
+"289
+[; ;Control_paso.c: 289:             menu();
+[e ( _menu ..  ]
+"291
+[; ;Control_paso.c: 291:         }
+}
+[e :U 580 ]
+"292
+[; ;Control_paso.c: 292:     }
+}
+[e :U 577 ]
+"282
+[; ;Control_paso.c: 282:     while(PORTCbits.RC2==0){
+[e $ == -> . . _PORTCbits 0 2 `i -> 0 `i 578  ]
+[e :U 579 ]
+"293
+[; ;Control_paso.c: 293:     selec=0;
+[e = _selec -> -> -> 0 `i `m `um ]
+"297
+[; ;Control_paso.c: 297:     if(PORTAbits.RA4==0){
+[e $ ! == -> . . _PORTAbits 0 4 `i -> 0 `i 581  ]
+{
+"298
+[; ;Control_paso.c: 298:     _delay((unsigned long)((20)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"299
+[; ;Control_paso.c: 299:     }
+}
+[e :U 581 ]
+"300
+[; ;Control_paso.c: 300:     if(PORTAbits.RA4==1){
+[e $ ! == -> . . _PORTAbits 0 4 `i -> 1 `i 582  ]
+{
+"301
+[; ;Control_paso.c: 301:         contado++;
+[e ++ _contado -> 1 `i ]
+"302
+[; ;Control_paso.c: 302:          sprintf(CONT, "NumPersonas %0d",contado);
+[e ( _sprintf (1 , (. , &U _CONT :s 17C _contado ]
+"303
+[; ;Control_paso.c: 303:         Lcd_Out2(1,2,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 2 `i `uc &U _CONT ]
+"304
+[; ;Control_paso.c: 304:         sprintf(CONT, "LIMITE %0d",MAX);
+[e ( _sprintf (1 , (. , &U _CONT :s 18C -> _MAX `i ]
+"305
+[; ;Control_paso.c: 305:        Lcd_Out2(2,1,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 1 `i `uc &U _CONT ]
+"306
+[; ;Control_paso.c: 306:         _delay((unsigned long)((500)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"308
+[; ;Control_paso.c: 308:     }
+}
+[e :U 582 ]
+"309
+[; ;Control_paso.c: 309:     if(PORTAbits.RA5==1){
+[e $ ! == -> . . _PORTAbits 0 5 `i -> 1 `i 583  ]
+{
+"310
+[; ;Control_paso.c: 310:         contado--;
+[e -- _contado -> 1 `i ]
+"311
+[; ;Control_paso.c: 311:     }
+}
+[e :U 583 ]
+"312
+[; ;Control_paso.c: 312:     sprintf(CONT, "NumPersonas %0d",contado);
+[e ( _sprintf (1 , (. , &U _CONT :s 19C _contado ]
+"313
+[; ;Control_paso.c: 313:         Lcd_Out2(1,2,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 2 `i `uc &U _CONT ]
+"314
+[; ;Control_paso.c: 314:         sprintf(CONT, "LIMITE %0d",MAX);
+[e ( _sprintf (1 , (. , &U _CONT :s 20C -> _MAX `i ]
+"315
+[; ;Control_paso.c: 315:         Lcd_Out2(2,1,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 1 `i `uc &U _CONT ]
+"316
+[; ;Control_paso.c: 316:         _delay((unsigned long)((500)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"320
+[; ;Control_paso.c: 320:          if(contado> MAX){
+[e $ ! > _contado -> _MAX `i 584  ]
+{
+"321
+[; ;Control_paso.c: 321:      LATCbits.LATC0=1;}
+[e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
+}
+[e $U 585  ]
+"322
+[; ;Control_paso.c: 322:         else{
+[e :U 584 ]
+{
+"323
+[; ;Control_paso.c: 323:              LATCbits.LATC0=0;
+[e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
+"324
+[; ;Control_paso.c: 324:         }
+}
+[e :U 585 ]
+"325
+[; ;Control_paso.c: 325:         if(contado < MAX){
+[e $ ! < _contado -> _MAX `i 586  ]
+{
+"326
+[; ;Control_paso.c: 326:      LATAbits.LATA1=1;}
+[e = . . _LATAbits 0 1 -> -> 1 `i `uc ]
+}
+[e $U 587  ]
+"327
+[; ;Control_paso.c: 327:         else{
+[e :U 586 ]
+{
+"328
+[; ;Control_paso.c: 328:              LATAbits.LATA1=0;
+[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
+"329
+[; ;Control_paso.c: 329:         }
+}
+[e :U 587 ]
+"330
+[; ;Control_paso.c: 330:         if(contado== MAX){
+[e $ ! == _contado -> _MAX `i 588  ]
+{
+"331
+[; ;Control_paso.c: 331:      LATCbits.LATC1=1;}
+[e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
+}
+[e $U 589  ]
+"332
+[; ;Control_paso.c: 332:         else{
+[e :U 588 ]
+{
+"333
+[; ;Control_paso.c: 333:         LATCbits.LATC1=0;
+[e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
+"334
+[; ;Control_paso.c: 334:         }
+}
+[e :U 589 ]
+"370
+[; ;Control_paso.c: 370:          }
+}
+[e :U 570 ]
+[e $U 571  ]
+[e :U 572 ]
+"371
+[; ;Control_paso.c: 371: }
+[e :UE 569 ]
+}
+[p f _sprintf 8388740 ]
+[a 5C 67 111 110 102 105 103 117 114 97 99 105 111 110 0 ]
+[a 7C 67 111 110 102 105 103 117 114 97 99 105 111 110 0 ]
+[a 11C 78 117 109 80 101 114 115 111 110 97 115 32 37 48 100 0 ]
+[a 13C 78 117 109 80 101 114 115 111 110 97 115 32 37 48 100 0 ]
+[a 17C 78 117 109 80 101 114 115 111 110 97 115 32 37 48 100 0 ]
+[a 19C 78 117 109 80 101 114 115 111 110 97 115 32 37 48 100 0 ]
+[a 18C 76 73 77 73 84 69 32 37 48 100 0 ]
+[a 20C 76 73 77 73 84 69 32 37 48 100 0 ]
+[a 12C 76 73 77 73 84 69 32 37 100 0 ]
+[a 14C 76 73 77 73 84 69 32 37 100 0 ]
+[a 6C 77 97 120 105 109 111 58 32 37 100 0 ]
+[a 8C 77 97 120 105 109 111 58 32 37 100 0 ]
+[a 10C 66 117 101 110 68 105 97 0 ]
+[a 2C 76 73 77 73 84 69 32 80 69 82 83 79 78 65 83 0 ]
+[a 4C 76 73 77 73 84 69 32 80 69 82 83 79 78 65 83 0 ]
+[a 16C 65 74 85 83 84 65 82 0 ]
+[a 15C 67 79 78 84 65 82 0 ]
+[a 3C 69 76 73 74 65 0 ]
+[a 9C 77 111 100 111 32 99 111 110 116 97 100 111 114 32 0 ]
+[a 1C 65 74 85 83 84 69 32 0 ]
