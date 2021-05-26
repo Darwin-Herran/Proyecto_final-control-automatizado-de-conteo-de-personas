@@ -6463,7 +6463,9 @@ void menu(void) {
                   MAX = MAX - 10;
 
                 }
-
+                if(MAX==0){
+                    MAX=50;
+                }
                 Lcd_Cmd(1);
                  sprintf(s, "Configuracion");
                 Lcd_Out2(1, 0, s);
@@ -6539,7 +6541,7 @@ void main(void)
       if(PORTBbits.RB5==0){
          contado++;
         }
-      sprintf(CONT, "NumPersonas %d",contado);
+      sprintf(CONT, "NumPersonas %0d",contado);
         Lcd_Out2(1,2,CONT);
         sprintf(CONT, "LIMITE %d",MAX);
        Lcd_Out2(2,1,CONT);
@@ -6551,7 +6553,7 @@ void main(void)
      if(PORTBbits.RB7==0){
          contado--;
         }
-      sprintf(CONT, "NumPersonas %d",contado);
+      sprintf(CONT, "NumPersonas %0d",contado);
         Lcd_Out2(1,2,CONT);
         sprintf(CONT, "LIMITE %d",MAX);
        Lcd_Out2(2,1,CONT);
@@ -6587,9 +6589,9 @@ void main(void)
     }
     if(PORTAbits.RA4==1){
         contado++;
-         sprintf(CONT, "NumPersonas %d",contado);
+         sprintf(CONT, "NumPersonas %0d",contado);
         Lcd_Out2(1,2,CONT);
-        sprintf(CONT, "LIMITE %d",MAX);
+        sprintf(CONT, "LIMITE %0d",MAX);
        Lcd_Out2(2,1,CONT);
         _delay((unsigned long)((500)*(1000000/4000.0)));
 
@@ -6597,9 +6599,9 @@ void main(void)
     if(PORTAbits.RA5==1){
         contado--;
     }
-    sprintf(CONT, "NumPersonas %d",contado);
+    sprintf(CONT, "NumPersonas %0d",contado);
         Lcd_Out2(1,2,CONT);
-        sprintf(CONT, "LIMITE %d",MAX);
+        sprintf(CONT, "LIMITE %0d",MAX);
         Lcd_Out2(2,1,CONT);
         _delay((unsigned long)((500)*(1000000/4000.0)));
 
@@ -6620,6 +6622,6 @@ void main(void)
         else{
         LATCbits.LATC1=0;
         }
-# 358 "MAIN.c"
+# 360 "MAIN.c"
          }
 }
