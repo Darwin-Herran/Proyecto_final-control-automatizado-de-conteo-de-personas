@@ -1,10 +1,14 @@
 /*
 /////////////////// DATOS DEL PROGRAMA ////////////////////
-//  TTITULO: Contador
+//  TTITULO: Parcial 2 Electronica Diguital II
 //  MICRO:PIC16F15244
-//  ESTUDIANTES: Drwin Herran y Jeisson betancourt 
+//  ESTUDIANTES: Jeisson daniel betancourt 2420191017
+ *               Darwin stiven Herran Rios  2420191021
+ *               
 //  Profesor: Harold F MURCIA
-//  FECHA: 25 de noviembre de 2021*/
+//  FECHA: 25 de Mayo de 2021
+///////////// CONFIGURACION del MCU ////////////////// */
+
 
 
 

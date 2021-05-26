@@ -54,7 +54,7 @@ stringtext10 STRCODE 0 86F 86F 8 2
 stringtext11 STRCODE 0 877 877 7 2
 stringtext12 STRCODE 0 87E 87E 6 2
 config CONFIG 4 8007 8007 5 2
-$/tmp/xcXaDAJHK.o
+$/tmp/xcXGkjOJl.o
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 2 2 2 2
 config CONFIG 4 8007 8007 5 2
@@ -167,146 +167,146 @@ STRING 884-B86 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production/Control_paso.X.production.o
-7E8 cinit CODE >797:/tmp/xcXElBaco.s
-7E8 cinit CODE >800:/tmp/xcXElBaco.s
-7E8 cinit CODE >862:/tmp/xcXElBaco.s
-7E9 cinit CODE >863:/tmp/xcXElBaco.s
-7EC cinit CODE >864:/tmp/xcXElBaco.s
-7ED cinit CODE >881:/tmp/xcXElBaco.s
-7EE cinit CODE >882:/tmp/xcXElBaco.s
-7EF cinit CODE >883:/tmp/xcXElBaco.s
-7F0 cinit CODE >884:/tmp/xcXElBaco.s
-7F1 cinit CODE >885:/tmp/xcXElBaco.s
-7F2 cinit CODE >886:/tmp/xcXElBaco.s
-7F5 cinit CODE >890:/tmp/xcXElBaco.s
-7F6 cinit CODE >891:/tmp/xcXElBaco.s
-7F7 cinit CODE >892:/tmp/xcXElBaco.s
-7F8 cinit CODE >893:/tmp/xcXElBaco.s
-7F9 cinit CODE >894:/tmp/xcXElBaco.s
-7FA cinit CODE >895:/tmp/xcXElBaco.s
-7FD cinit CODE >901:/tmp/xcXElBaco.s
-7FD cinit CODE >903:/tmp/xcXElBaco.s
-7FE cinit CODE >904:/tmp/xcXElBaco.s
-DF1 text19 CODE >151:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DF2 text19 CODE >152:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DF5 text19 CODE >153:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-E16 text19 CODE >154:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-E35 text19 CODE >155:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-E39 text19 CODE >156:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-E3E text19 CODE >157:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-E5F text19 CODE >158:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-E72 text19 CODE >159:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-E76 text19 CODE >160:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-E7B text19 CODE >161:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-E82 text19 CODE >162:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D65 text18 CODE >53:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D65 text18 CODE >55:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D67 text18 CODE >56:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D68 text18 CODE >57:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D69 text18 CODE >58:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D6A text18 CODE >59:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D6B text18 CODE >60:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D6C text18 CODE >61:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D6D text18 CODE >62:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D6E text18 CODE >63:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D6F text18 CODE >64:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D70 text18 CODE >65:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D71 text18 CODE >66:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D72 text18 CODE >67:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D79 text18 CODE >68:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D80 text18 CODE >69:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D87 text18 CODE >70:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D8E text18 CODE >71:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D95 text18 CODE >72:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D9C text18 CODE >73:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-D9E text18 CODE >75:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DA4 text18 CODE >76:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DA9 text18 CODE >77:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DAB text18 CODE >78:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DAC text18 CODE >79:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DB2 text18 CODE >80:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DB3 text18 CODE >81:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DBA text18 CODE >82:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DC0 text18 CODE >82:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DC4 text18 CODE >83:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DCB text18 CODE >84:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DD1 text18 CODE >85:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DD2 text18 CODE >86:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DD9 text18 CODE >87:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DE0 text18 CODE >88:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DE4 text18 CODE >89:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DE8 text18 CODE >90:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DEC text18 CODE >91:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-DF0 text18 CODE >92:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-E83 text17 CODE >137:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-E84 text17 CODE >138:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-E87 text17 CODE >139:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-EA8 text17 CODE >140:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-EC7 text17 CODE >141:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-ECB text17 CODE >142:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-ED0 text17 CODE >143:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-EF1 text17 CODE >144:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-F04 text17 CODE >145:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-F08 text17 CODE >146:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-F0D text17 CODE >147:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-F15 text17 CODE >148:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C72 text16 CODE >95:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C73 text16 CODE >98:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C74 text16 CODE >100:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C7A text16 CODE >101:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C80 text16 CODE >102:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C86 text16 CODE >103:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C8C text16 CODE >105:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C91 text16 CODE >105:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C96 text16 CODE >105:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C99 text16 CODE >105:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C9C text16 CODE >105:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C9F text16 CODE >105:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-CA2 text16 CODE >106:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-CA6 text16 CODE >107:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-CA7 text16 CODE >109:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-CAF text16 CODE >110:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-CB3 text16 CODE >107:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-CBC text16 CODE >113:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-BBB text15 CODE >66:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BBB text15 CODE >69:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BBD text15 CODE >70:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BBE text15 CODE >71:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BBF text15 CODE >74:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BC1 text15 CODE >75:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BC3 text15 CODE >76:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BC5 text15 CODE >79:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BC7 text15 CODE >80:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BC8 text15 CODE >81:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BC9 text15 CODE >88:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BCB text15 CODE >91:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BCD text15 CODE >92:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BCE text15 CODE >93:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BCF text15 CODE >96:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BD1 text15 CODE >97:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BD3 text15 CODE >98:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BD5 text15 CODE >101:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BD7 text15 CODE >102:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BD9 text15 CODE >103:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-BDB text15 CODE >105:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-C29 text14 CODE >116:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C2A text14 CODE >119:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C2B text14 CODE >121:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C31 text14 CODE >122:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C37 text14 CODE >123:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C3D text14 CODE >124:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C43 text14 CODE >126:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C48 text14 CODE >126:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C4D text14 CODE >126:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C50 text14 CODE >126:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C53 text14 CODE >126:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C56 text14 CODE >126:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C59 text14 CODE >127:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C5D text14 CODE >128:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C5E text14 CODE >130:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C65 text14 CODE >131:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C69 text14 CODE >128:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
-C71 text14 CODE >134:/home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
+7E8 cinit CODE >797:/tmp/xcXHdMlil.s
+7E8 cinit CODE >800:/tmp/xcXHdMlil.s
+7E8 cinit CODE >862:/tmp/xcXHdMlil.s
+7E9 cinit CODE >863:/tmp/xcXHdMlil.s
+7EC cinit CODE >864:/tmp/xcXHdMlil.s
+7ED cinit CODE >881:/tmp/xcXHdMlil.s
+7EE cinit CODE >882:/tmp/xcXHdMlil.s
+7EF cinit CODE >883:/tmp/xcXHdMlil.s
+7F0 cinit CODE >884:/tmp/xcXHdMlil.s
+7F1 cinit CODE >885:/tmp/xcXHdMlil.s
+7F2 cinit CODE >886:/tmp/xcXHdMlil.s
+7F5 cinit CODE >890:/tmp/xcXHdMlil.s
+7F6 cinit CODE >891:/tmp/xcXHdMlil.s
+7F7 cinit CODE >892:/tmp/xcXHdMlil.s
+7F8 cinit CODE >893:/tmp/xcXHdMlil.s
+7F9 cinit CODE >894:/tmp/xcXHdMlil.s
+7FA cinit CODE >895:/tmp/xcXHdMlil.s
+7FD cinit CODE >901:/tmp/xcXHdMlil.s
+7FD cinit CODE >903:/tmp/xcXHdMlil.s
+7FE cinit CODE >904:/tmp/xcXHdMlil.s
+DF1 text19 CODE >151:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DF2 text19 CODE >152:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DF5 text19 CODE >153:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+E16 text19 CODE >154:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+E35 text19 CODE >155:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+E39 text19 CODE >156:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+E3E text19 CODE >157:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+E5F text19 CODE >158:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+E72 text19 CODE >159:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+E76 text19 CODE >160:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+E7B text19 CODE >161:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+E82 text19 CODE >162:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D65 text18 CODE >53:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D65 text18 CODE >55:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D67 text18 CODE >56:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D68 text18 CODE >57:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D69 text18 CODE >58:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D6A text18 CODE >59:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D6B text18 CODE >60:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D6C text18 CODE >61:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D6D text18 CODE >62:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D6E text18 CODE >63:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D6F text18 CODE >64:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D70 text18 CODE >65:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D71 text18 CODE >66:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D72 text18 CODE >67:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D79 text18 CODE >68:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D80 text18 CODE >69:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D87 text18 CODE >70:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D8E text18 CODE >71:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D95 text18 CODE >72:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D9C text18 CODE >73:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+D9E text18 CODE >75:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DA4 text18 CODE >76:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DA9 text18 CODE >77:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DAB text18 CODE >78:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DAC text18 CODE >79:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DB2 text18 CODE >80:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DB3 text18 CODE >81:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DBA text18 CODE >82:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DC0 text18 CODE >82:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DC4 text18 CODE >83:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DCB text18 CODE >84:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DD1 text18 CODE >85:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DD2 text18 CODE >86:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DD9 text18 CODE >87:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DE0 text18 CODE >88:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DE4 text18 CODE >89:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DE8 text18 CODE >90:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DEC text18 CODE >91:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+DF0 text18 CODE >92:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+E83 text17 CODE >137:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+E84 text17 CODE >138:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+E87 text17 CODE >139:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+EA8 text17 CODE >140:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+EC7 text17 CODE >141:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+ECB text17 CODE >142:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+ED0 text17 CODE >143:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+EF1 text17 CODE >144:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+F04 text17 CODE >145:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+F08 text17 CODE >146:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+F0D text17 CODE >147:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+F15 text17 CODE >148:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C72 text16 CODE >95:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C73 text16 CODE >98:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C74 text16 CODE >100:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C7A text16 CODE >101:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C80 text16 CODE >102:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C86 text16 CODE >103:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C8C text16 CODE >105:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C91 text16 CODE >105:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C96 text16 CODE >105:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C99 text16 CODE >105:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C9C text16 CODE >105:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C9F text16 CODE >105:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+CA2 text16 CODE >106:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+CA6 text16 CODE >107:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+CA7 text16 CODE >109:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+CAF text16 CODE >110:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+CB3 text16 CODE >107:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+CBC text16 CODE >113:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+BBB text15 CODE >70:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BBB text15 CODE >73:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BBD text15 CODE >74:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BBE text15 CODE >75:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BBF text15 CODE >78:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BC1 text15 CODE >79:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BC3 text15 CODE >80:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BC5 text15 CODE >83:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BC7 text15 CODE >84:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BC8 text15 CODE >85:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BC9 text15 CODE >92:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BCB text15 CODE >95:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BCD text15 CODE >96:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BCE text15 CODE >97:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BCF text15 CODE >100:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BD1 text15 CODE >101:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BD3 text15 CODE >102:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BD5 text15 CODE >105:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BD7 text15 CODE >106:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BD9 text15 CODE >107:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+BDB text15 CODE >109:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+C29 text14 CODE >116:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C2A text14 CODE >119:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C2B text14 CODE >121:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C31 text14 CODE >122:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C37 text14 CODE >123:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C3D text14 CODE >124:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C43 text14 CODE >126:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C48 text14 CODE >126:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C4D text14 CODE >126:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C50 text14 CODE >126:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C53 text14 CODE >126:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C56 text14 CODE >126:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C59 text14 CODE >127:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C5D text14 CODE >128:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C5E text14 CODE >130:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C65 text14 CODE >131:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C69 text14 CODE >128:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
+C71 text14 CODE >134:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
 43 text13 CODE >7:/opt/microchip/xc8/v2.32/pic/sources/c99/common/aodiv.c
 43 text13 CODE >15:/opt/microchip/xc8/v2.32/pic/sources/c99/common/aodiv.c
 44 text13 CODE >16:/opt/microchip/xc8/v2.32/pic/sources/c99/common/aodiv.c
@@ -572,170 +572,170 @@ BE8 text2 CODE >18:/opt/microchip/xc8/v2.32/pic/sources/c99/common/nf_sprintf.c
 BEA text2 CODE >19:/opt/microchip/xc8/v2.32/pic/sources/c99/common/nf_sprintf.c
 BF7 text2 CODE >20:/opt/microchip/xc8/v2.32/pic/sources/c99/common/nf_sprintf.c
 BFF text2 CODE >23:/opt/microchip/xc8/v2.32/pic/sources/c99/common/nf_sprintf.c
-3E3 text1 CODE >112:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-3E3 text1 CODE >114:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-3EA text1 CODE >115:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-3EB text1 CODE >116:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-3ED text1 CODE >120:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-3F2 text1 CODE >121:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-3FF text1 CODE >122:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-404 text1 CODE >123:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-411 text1 CODE >125:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-416 text1 CODE >126:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-41A text1 CODE >127:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-423 text1 CODE >128:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-42D text1 CODE >129:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-436 text1 CODE >130:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-440 text1 CODE >131:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-441 text1 CODE >133:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-44A text1 CODE >140:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-44E text1 CODE >140:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-452 text1 CODE >140:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-455 text1 CODE >141:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-458 text1 CODE >141:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-45F text1 CODE >142:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-466 text1 CODE >143:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-46A text1 CODE >144:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-473 text1 CODE >145:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-47D text1 CODE >146:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-486 text1 CODE >147:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-490 text1 CODE >148:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-49D text1 CODE >152:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-4A2 text1 CODE >153:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-4AF text1 CODE >154:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-4B4 text1 CODE >155:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-4BA text1 CODE >156:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-4BF text1 CODE >157:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-4C5 text1 CODE >158:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-4C6 text1 CODE >160:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-4CD text1 CODE >163:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-4D1 text1 CODE >164:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-4DA text1 CODE >165:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-4E4 text1 CODE >166:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-4F6 text1 CODE >167:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-500 text1 CODE >169:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-501 text1 CODE >170:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-506 text1 CODE >171:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-507 text1 CODE >172:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-508 text1 CODE >173:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-50F text1 CODE >175:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-50F text1 CODE >176:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-514 text1 CODE >177:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-51A text1 CODE >179:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-51E text1 CODE >180:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-527 text1 CODE >181:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-531 text1 CODE >182:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-543 text1 CODE >183:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-54E text1 CODE >189:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-552 text1 CODE >189:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-556 text1 CODE >189:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-559 text1 CODE >190:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-55C text1 CODE >190:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-563 text1 CODE >191:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-563 text1 CODE >192:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-568 text1 CODE >193:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-56C text1 CODE >194:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-56D text1 CODE >188:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-56D text1 CODE >196:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-572 text1 CODE >197:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-579 text1 CODE >198:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-57F text1 CODE >199:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-583 text1 CODE >204:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-58B text1 CODE >205:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-58F text1 CODE >206:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-590 text1 CODE >139:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-590 text1 CODE >208:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-595 text1 CODE >209:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-59C text1 CODE >210:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5A3 text1 CODE >211:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5A3 text1 CODE >212:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5A7 text1 CODE >213:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5B0 text1 CODE >214:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5BA text1 CODE >215:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5BC text1 CODE >216:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5C9 text1 CODE >222:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5CA maintext CODE >234:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5CA maintext CODE >236:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5CD maintext CODE >238:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5CF maintext CODE >241:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5D2 maintext CODE >242:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5D6 maintext CODE >243:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5DA maintext CODE >245:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5E2 maintext CODE >246:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5EF maintext CODE >247:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5F7 maintext CODE >251:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-5FC maintext CODE >252:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-601 maintext CODE >254:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-612 maintext CODE >255:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-61F maintext CODE >256:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-631 maintext CODE >257:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-63C maintext CODE >258:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-645 maintext CODE >263:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-64A maintext CODE >264:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-64F maintext CODE >266:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-660 maintext CODE >267:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-66D maintext CODE >268:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-67F maintext CODE >269:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-68A maintext CODE >270:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-693 maintext CODE >274:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-698 maintext CODE >275:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-6A0 maintext CODE >276:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-6A5 maintext CODE >277:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-6B5 maintext CODE >278:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-6C0 maintext CODE >283:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-6C4 maintext CODE >283:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-6C8 maintext CODE >283:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-6CB maintext CODE >284:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-6CE maintext CODE >284:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-6D5 maintext CODE >285:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-6DC maintext CODE >286:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-6E0 maintext CODE >287:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-6E9 maintext CODE >288:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-6F3 maintext CODE >289:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-6F6 maintext CODE >282:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-6FB maintext CODE >293:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-702 maintext CODE >297:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-707 maintext CODE >298:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-70F maintext CODE >300:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-714 maintext CODE >301:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-719 maintext CODE >302:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-72A maintext CODE >303:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-737 maintext CODE >304:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-749 maintext CODE >305:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-754 maintext CODE >306:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-75C maintext CODE >309:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-761 maintext CODE >310:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-766 maintext CODE >312:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-777 maintext CODE >313:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-784 maintext CODE >314:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-796 maintext CODE >315:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7A1 maintext CODE >316:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7A9 maintext CODE >320:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7AD maintext CODE >320:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7B1 maintext CODE >320:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7B5 maintext CODE >321:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7B8 maintext CODE >322:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7B8 maintext CODE >323:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7BA maintext CODE >325:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7C1 maintext CODE >325:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7C6 maintext CODE >325:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7CA maintext CODE >326:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7CD maintext CODE >327:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7CD maintext CODE >328:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7CF maintext CODE >330:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7D8 maintext CODE >330:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7DE maintext CODE >330:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7E2 maintext CODE >331:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7E4 maintext CODE >332:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-7E4 maintext CODE >333:/home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
-C clrtext CODE >870:/tmp/xcXElBaco.s
-C clrtext CODE >871:/tmp/xcXElBaco.s
-D clrtext CODE >872:/tmp/xcXElBaco.s
-D clrtext CODE >873:/tmp/xcXElBaco.s
-E clrtext CODE >874:/tmp/xcXElBaco.s
-F clrtext CODE >875:/tmp/xcXElBaco.s
-10 clrtext CODE >876:/tmp/xcXElBaco.s
-11 clrtext CODE >877:/tmp/xcXElBaco.s
+3E3 text1 CODE >116:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+3E3 text1 CODE >118:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+3EA text1 CODE >119:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+3EB text1 CODE >120:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+3ED text1 CODE >124:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+3F2 text1 CODE >125:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+3FF text1 CODE >126:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+404 text1 CODE >127:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+411 text1 CODE >129:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+416 text1 CODE >130:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+41A text1 CODE >131:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+423 text1 CODE >132:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+42D text1 CODE >133:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+436 text1 CODE >134:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+440 text1 CODE >135:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+441 text1 CODE >137:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+44A text1 CODE >144:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+44E text1 CODE >144:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+452 text1 CODE >144:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+455 text1 CODE >145:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+458 text1 CODE >145:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+45F text1 CODE >146:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+466 text1 CODE >147:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+46A text1 CODE >148:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+473 text1 CODE >149:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+47D text1 CODE >150:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+486 text1 CODE >151:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+490 text1 CODE >152:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+49D text1 CODE >156:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+4A2 text1 CODE >157:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+4AF text1 CODE >158:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+4B4 text1 CODE >159:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+4BA text1 CODE >160:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+4BF text1 CODE >161:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+4C5 text1 CODE >162:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+4C6 text1 CODE >164:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+4CD text1 CODE >167:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+4D1 text1 CODE >168:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+4DA text1 CODE >169:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+4E4 text1 CODE >170:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+4F6 text1 CODE >171:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+500 text1 CODE >173:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+501 text1 CODE >174:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+506 text1 CODE >175:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+507 text1 CODE >176:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+508 text1 CODE >177:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+50F text1 CODE >179:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+50F text1 CODE >180:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+514 text1 CODE >181:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+51A text1 CODE >183:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+51E text1 CODE >184:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+527 text1 CODE >185:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+531 text1 CODE >186:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+543 text1 CODE >187:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+54E text1 CODE >193:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+552 text1 CODE >193:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+556 text1 CODE >193:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+559 text1 CODE >194:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+55C text1 CODE >194:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+563 text1 CODE >195:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+563 text1 CODE >196:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+568 text1 CODE >197:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+56C text1 CODE >198:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+56D text1 CODE >192:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+56D text1 CODE >200:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+572 text1 CODE >201:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+579 text1 CODE >202:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+57F text1 CODE >203:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+583 text1 CODE >208:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+58B text1 CODE >209:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+58F text1 CODE >210:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+590 text1 CODE >143:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+590 text1 CODE >212:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+595 text1 CODE >213:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+59C text1 CODE >214:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5A3 text1 CODE >215:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5A3 text1 CODE >216:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5A7 text1 CODE >217:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5B0 text1 CODE >218:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5BA text1 CODE >219:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5BC text1 CODE >220:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5C9 text1 CODE >226:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5CA maintext CODE >238:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5CA maintext CODE >240:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5CD maintext CODE >242:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5CF maintext CODE >245:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5D2 maintext CODE >246:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5D6 maintext CODE >247:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5DA maintext CODE >249:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5E2 maintext CODE >250:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5EF maintext CODE >251:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5F7 maintext CODE >255:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+5FC maintext CODE >256:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+601 maintext CODE >258:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+612 maintext CODE >259:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+61F maintext CODE >260:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+631 maintext CODE >261:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+63C maintext CODE >262:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+645 maintext CODE >267:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+64A maintext CODE >268:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+64F maintext CODE >270:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+660 maintext CODE >271:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+66D maintext CODE >272:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+67F maintext CODE >273:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+68A maintext CODE >274:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+693 maintext CODE >278:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+698 maintext CODE >279:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+6A0 maintext CODE >280:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+6A5 maintext CODE >281:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+6B5 maintext CODE >282:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+6C0 maintext CODE >287:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+6C4 maintext CODE >287:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+6C8 maintext CODE >287:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+6CB maintext CODE >288:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+6CE maintext CODE >288:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+6D5 maintext CODE >289:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+6DC maintext CODE >290:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+6E0 maintext CODE >291:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+6E9 maintext CODE >292:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+6F3 maintext CODE >293:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+6F6 maintext CODE >286:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+6FB maintext CODE >297:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+702 maintext CODE >301:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+707 maintext CODE >302:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+70F maintext CODE >304:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+714 maintext CODE >305:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+719 maintext CODE >306:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+72A maintext CODE >307:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+737 maintext CODE >308:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+749 maintext CODE >309:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+754 maintext CODE >310:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+75C maintext CODE >313:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+761 maintext CODE >314:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+766 maintext CODE >316:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+777 maintext CODE >317:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+784 maintext CODE >318:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+796 maintext CODE >319:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7A1 maintext CODE >320:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7A9 maintext CODE >324:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7AD maintext CODE >324:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7B1 maintext CODE >324:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7B5 maintext CODE >325:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7B8 maintext CODE >326:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7B8 maintext CODE >327:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7BA maintext CODE >329:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7C1 maintext CODE >329:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7C6 maintext CODE >329:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7CA maintext CODE >330:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7CD maintext CODE >331:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7CD maintext CODE >332:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7CF maintext CODE >334:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7D8 maintext CODE >334:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7DE maintext CODE >334:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7E2 maintext CODE >335:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7E4 maintext CODE >336:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+7E4 maintext CODE >337:/home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
+C clrtext CODE >870:/tmp/xcXHdMlil.s
+C clrtext CODE >871:/tmp/xcXHdMlil.s
+D clrtext CODE >872:/tmp/xcXHdMlil.s
+D clrtext CODE >873:/tmp/xcXHdMlil.s
+E clrtext CODE >874:/tmp/xcXHdMlil.s
+F clrtext CODE >875:/tmp/xcXHdMlil.s
+10 clrtext CODE >876:/tmp/xcXHdMlil.s
+11 clrtext CODE >877:/tmp/xcXHdMlil.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -771,7 +771,7 @@ _LATA 18 0 ABS 0 - dist/default/production/Control_paso.X.production.o
 _LATB 19 0 ABS 0 - dist/default/production/Control_paso.X.production.o
 _LATC 1A 0 ABS 0 - dist/default/production/Control_paso.X.production.o
 _WPUC 1F4F 0 ABS 0 - dist/default/production/Control_paso.X.production.o
-___sp 0 0 STACK 2 stack /tmp/xcXaDAJHK.o
+___sp 0 0 STACK 2 stack /tmp/xcXGkjOJl.o
 _dbuf 120 0 BANK2 1 bssBANK2 dist/default/production/Control_paso.X.production.o
 _dtoa 4E6 0 CODE 0 text5 dist/default/production/Control_paso.X.production.o
 _main B94 0 CODE 0 maintext dist/default/production/Control_paso.X.production.o
@@ -785,7 +785,7 @@ pad@p 25 0 BANK0 1 cstackBANK0 dist/default/production/Control_paso.X.production
 pad@w 29 0 BANK0 1 cstackBANK0 dist/default/production/Control_paso.X.production.o
 Lcd_Out2@x 73 0 COMMON 1 cstackCOMMON dist/default/production/Control_paso.X.production.o
 Lcd_Out2@y 77 0 COMMON 1 cstackCOMMON dist/default/production/Control_paso.X.production.o
-start 4 0 CODE 0 init /tmp/xcXaDAJHK.o
+start 4 0 CODE 0 init /tmp/xcXGkjOJl.o
 ___aomod@counter 71 0 COMMON 1 cstackCOMMON dist/default/production/Control_paso.X.production.o
 __size_of___aodiv 0 0 ABS 0 - dist/default/production/Control_paso.X.production.o
 __size_of___aomod 0 0 ABS 0 - dist/default/production/Control_paso.X.production.o
@@ -801,12 +801,12 @@ __LidataBANK1 0 0 ABS 0 idataBANK1 -
 __Hpowerup 0 0 CODE 0 powerup -
 __end_of_vfpfcnvrt 4E6 0 CODE 0 text4 dist/default/production/Control_paso.X.production.o
 __size_of_vfpfcnvrt 0 0 ABS 0 - dist/default/production/Control_paso.X.production.o
-intlevel0 0 0 ENTRY 0 functab /tmp/xcXaDAJHK.o
-intlevel1 0 0 ENTRY 0 functab /tmp/xcXaDAJHK.o
-intlevel2 0 0 ENTRY 0 functab /tmp/xcXaDAJHK.o
-intlevel3 0 0 ENTRY 0 functab /tmp/xcXaDAJHK.o
-intlevel4 0 0 ENTRY 0 functab /tmp/xcXaDAJHK.o
-intlevel5 0 0 ENTRY 0 functab /tmp/xcXaDAJHK.o
+intlevel0 0 0 ENTRY 0 functab /tmp/xcXGkjOJl.o
+intlevel1 0 0 ENTRY 0 functab /tmp/xcXGkjOJl.o
+intlevel2 0 0 ENTRY 0 functab /tmp/xcXGkjOJl.o
+intlevel3 0 0 ENTRY 0 functab /tmp/xcXGkjOJl.o
+intlevel4 0 0 ENTRY 0 functab /tmp/xcXGkjOJl.o
+intlevel5 0 0 ENTRY 0 functab /tmp/xcXGkjOJl.o
 Lcd_Chr_CP@data 72 0 COMMON 1 cstackCOMMON dist/default/production/Control_paso.X.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production/Control_paso.X.production.o
 _Lcd_Chr_CP 1D06 0 CODE 0 text17 dist/default/production/Control_paso.X.production.o
@@ -827,8 +827,8 @@ _INLVLA 1F3C 0 ABS 0 - dist/default/production/Control_paso.X.production.o
 _INLVLB 1F47 0 ABS 0 - dist/default/production/Control_paso.X.production.o
 _INLVLC 1F52 0 ABS 0 - dist/default/production/Control_paso.X.production.o
 ?_strlen 70 0 COMMON 1 cstackCOMMON dist/default/production/Control_paso.X.production.o
-___stackhi 21EF 0 ABS 0 - /tmp/xcXaDAJHK.o
-___stacklo 20C0 0 ABS 0 - /tmp/xcXaDAJHK.o
+___stackhi 21EF 0 ABS 0 - /tmp/xcXGkjOJl.o
+___stacklo 20C0 0 ABS 0 - /tmp/xcXGkjOJl.o
 ___aomod@dividend 28 0 BANK0 1 cstackBANK0 dist/default/production/Control_paso.X.production.o
 __end_of_Lcd_Chr_CP 1E2C 0 CODE 0 text17 dist/default/production/Control_paso.X.production.o
 __size_of_fputc 0 0 ABS 0 - dist/default/production/Control_paso.X.production.o
@@ -854,7 +854,7 @@ __size_of_Lcd_Cmd 0 0 ABS 0 - dist/default/production/Control_paso.X.production.
 __size_of_Lcd_Out 0 0 ABS 0 - dist/default/production/Control_paso.X.production.o
 fputc@fp 72 0 COMMON 1 cstackCOMMON dist/default/production/Control_paso.X.production.o
 fputs@fp 78 0 COMMON 1 cstackCOMMON dist/default/production/Control_paso.X.production.o
-___int_sp 0 0 STACK 2 stack /tmp/xcXaDAJHK.o
+___int_sp 0 0 STACK 2 stack /tmp/xcXGkjOJl.o
 vfpfcnvrt@done 5D 0 BANK0 1 cstackBANK0 dist/default/production/Control_paso.X.production.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
@@ -1110,7 +1110,7 @@ __end_of_LDR 1004 0 STRCODE 0 stringtext1 dist/default/production/Control_paso.X
 __end_of_abs 1742 0 CODE 0 text11 dist/default/production/Control_paso.X.production.o
 __end_of_pad 1ACA 0 CODE 0 text6 dist/default/production/Control_paso.X.production.o
 __Lintentry 4 0 CODE 0 intentry -
-reset_vec 0 0 CODE 0 reset_vec /tmp/xcXaDAJHK.o
+reset_vec 0 0 CODE 0 reset_vec /tmp/xcXGkjOJl.o
 strlen@a 73 0 COMMON 1 cstackCOMMON dist/default/production/Control_paso.X.production.o
 strlen@s 74 0 COMMON 1 cstackCOMMON dist/default/production/Control_paso.X.production.o
 __pdataBANK1 EA 0 BANK1 1 dataBANK1 dist/default/production/Control_paso.X.production.o

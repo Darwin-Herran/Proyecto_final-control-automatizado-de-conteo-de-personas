@@ -5,7 +5,7 @@ Linker command line:
 -W-3 --edf=/opt/microchip/xc8/v2.32/pic/dat/en_msgs.txt -cn \
   -h+dist/default/production/Control_paso.X.production.sym \
   --cmf=dist/default/production/Control_paso.X.production.cmf -z -Q16F15244 \
-  -o/tmp/xcXkCejMg --defsym=__MPLAB_BUILD=1 \
+  -o/tmp/xcXaleFiL --defsym=__MPLAB_BUILD=1 \
   -Mdist/default/production/Control_paso.X.production.map -E1 \
   -ver=XC8 Compiler --acfsm=1493 -ASTACK=020C0h-021EFh -pstack=STACK \
   -ACODE=00h-07FFhx2 -ASTRCODE=00h-0FFFh -ASTRING=00h-0FFhx16 \
@@ -39,7 +39,7 @@ Linker command line:
   -ACONFIG=08007h-0800Bh -DCONFIG=2 -AIDLOC=08000h-08003h -DIDLOC=2 \
   -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 \
   -preset_vec=00h,intentry,init,end_init -ppowerup=CODE -pcinit=CODE \
-  -pfunctab=ENTRY -k /tmp/xcXaDAJHK.o \
+  -pfunctab=ENTRY -k /tmp/xcXGkjOJl.o \
   dist/default/production/Control_paso.X.production.o 
 
 Object code version is 3.11
@@ -49,7 +49,7 @@ Machine type is 16F15244
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-/tmp/xcXaDAJHK.o
+/tmp/xcXGkjOJl.o
                 end_init                              2        2        2        0       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        5        0       4

@@ -3,7 +3,7 @@
 [d edition pro ]
 [d chip 16F15244 ]
 [d frameptr 6 ]
-"53 /home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
+"53 /home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
 [v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
 "95
 [v _Lcd_Out Lcd_Out `(v  1 e 1 0 ]
@@ -41,11 +41,11 @@
 [v _strlen strlen `(ui  1 e 2 0 ]
 "4 /opt/microchip/xc8/v2.32/pic/sources/c99/common/Umul8_16.c
 [v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
-"66 /home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
+"70 /home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
-"112
+"116
 [v _menu menu `(v  1 e 1 0 ]
-"234
+"238
 [v _main main `(v  1 e 1 0 ]
 [s S152 . 1 `uc 1 RA0 1 0 :1:0 
 `uc 1 RA1 1 0 :1:1 
@@ -167,31 +167,31 @@
 [v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
 "69
 [v _nout nout `i  1 s 2 nout ]
-"108 /home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
+"112 /home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
 [v _MAX MAX `uc  1 e 1 0 ]
-"109
+"113
 [v _s s `[20]uc  1 e 20 0 ]
-"224
+"228
 [v _CONT CONT `[20]uc  1 e 20 0 ]
-"225
+"229
 [v _contado contado `i  1 e 2 0 ]
-"227
+"231
 [v _selec selec `um  1 e 3 0 ]
-"234
+"238
 [v _main main `(v  1 e 1 0 ]
 {
-"371
+"375
 } 0
-"112
+"116
 [v _menu menu `(v  1 e 1 0 ]
 {
-"114
+"118
 [v menu@variable variable `um  1 a 3 7 ]
-"116
+"120
 [v menu@ok ok `i  1 a 2 11 ]
-"115
+"119
 [v menu@operacion operacion `a  1 a 1 10 ]
-"222
+"226
 } 0
 "9 /opt/microchip/xc8/v2.32/pic/sources/c99/common/nf_sprintf.c
 [v _sprintf sprintf `(i  1 e 2 0 ]
@@ -351,7 +351,7 @@
 [v ___aodiv@dividend dividend `o  1 p 8 8 ]
 "43
 } 0
-"116 /home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
+"116 /home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
 [v _Lcd_Out2 Lcd_Out2 `(v  1 e 1 0 ]
 {
 [v Lcd_Out2@y y `uc  1 a 1 wreg ]
@@ -364,12 +364,12 @@
 [v Lcd_Out2@y y `uc  1 a 1 7 ]
 "134
 } 0
-"66 /home/darwin-herran/MPLABXProjects/Control_paso.X/Control_paso.c
+"70 /home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/Control_paso.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
-"105
+"109
 } 0
-"95 /home/darwin-herran/MPLABXProjects/Control_paso.X/flex_lcd.h
+"95 /home/darwin-herran/github/Proyecto_final-control-automatizado-de-conteo-de-personas/src/Control_paso.X/flex_lcd.h
 [v _Lcd_Out Lcd_Out `(v  1 e 1 0 ]
 {
 [v Lcd_Out@y y `uc  1 a 1 wreg ]

@@ -7,7 +7,7 @@
 # 1 "/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "Control_paso.c" 2
-# 11 "Control_paso.c"
+# 15 "Control_paso.c"
 # 1 "/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/xc.h" 1 3
 # 18 "/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
@@ -6022,12 +6022,12 @@ extern __bank0 unsigned char __resetbits;
 extern __bank0 __bit __powerdown;
 extern __bank0 __bit __timeout;
 # 29 "/home/darwin-herran/.mchp_packs/Microchip/PIC16F1xxxx_DFP/1.7.146/xc8/pic/include/xc.h" 2 3
-# 12 "Control_paso.c" 2
+# 16 "Control_paso.c" 2
 
 
 
 # 1 "/opt/microchip/xc8/v2.32/pic/include/c99/stdbool.h" 1 3
-# 16 "Control_paso.c" 2
+# 20 "Control_paso.c" 2
 
 # 1 "/opt/microchip/xc8/v2.32/pic/include/c99/conio.h" 1 3
 
@@ -6058,7 +6058,7 @@ extern __bit kbhit(void);
 
 extern char * cgets(char *);
 extern void cputs(const char *);
-# 18 "Control_paso.c" 2
+# 22 "Control_paso.c" 2
 
 
 
@@ -6200,7 +6200,7 @@ char *ctermid(char *);
 
 
 char *tempnam(const char *, const char *);
-# 22 "Control_paso.c" 2
+# 26 "Control_paso.c" 2
 
 # 1 "./flex_lcd.h" 1
 # 47 "./flex_lcd.h"
@@ -6320,7 +6320,7 @@ _delay(10);
 PORTBbits.RB6 = 1; _delay((unsigned long)((5)*(1000000/4000000.0))); PORTBbits.RB6 = 0;
 _delay((unsigned long)((5500)*(1000000/4000000.0)));
 }
-# 24 "Control_paso.c" 2
+# 28 "Control_paso.c" 2
 
 
 #pragma config FEXTOSC = OFF
@@ -6349,7 +6349,7 @@ _delay((unsigned long)((5500)*(1000000/4000000.0)));
 
 
 #pragma config CP = OFF
-# 66 "Control_paso.c"
+# 70 "Control_paso.c"
 void PIN_MANAGER_Initialize(void)
 {
 
@@ -6619,6 +6619,6 @@ void main(void)
         else{
         LATCbits.LATC1=0;
         }
-# 370 "Control_paso.c"
+# 374 "Control_paso.c"
          }
 }

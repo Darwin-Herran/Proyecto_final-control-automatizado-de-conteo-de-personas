@@ -1137,817 +1137,817 @@ Version 4.0 HI-TECH Software Intermediate Code
 [; ;./flex_lcd.h: 162: }
 [e :UE 536 ]
 }
-"26 Control_paso.c
+"30 Control_paso.c
 [p x FEXTOSC  =  OFF  ]
-"27
+"31
 [p x RSTOSC  =  HFINTOSC_1MHZ  ]
-"28
-[p x CLKOUTEN  =  OFF  ]
-"29
-[p x VDDAR  =  HI  ]
 "32
-[p x MCLRE  =  EXTMCLR  ]
+[p x CLKOUTEN  =  OFF  ]
 "33
-[p x PWRTS  =  PWRT_OFF  ]
-"34
-[p x WDTE  =  OFF  ]
-"35
-[p x BOREN  =  ON  ]
+[p x VDDAR  =  HI  ]
 "36
-[p x BORV  =  LO  ]
+[p x MCLRE  =  EXTMCLR  ]
 "37
-[p x PPS1WAY  =  ON  ]
+[p x PWRTS  =  PWRT_OFF  ]
 "38
-[p x STVREN  =  ON  ]
+[p x WDTE  =  OFF  ]
+"39
+[p x BOREN  =  ON  ]
+"40
+[p x BORV  =  LO  ]
 "41
-[p x BBSIZE  =  BB512  ]
+[p x PPS1WAY  =  ON  ]
 "42
-[p x BBEN  =  OFF  ]
-"43
-[p x SAFEN  =  OFF  ]
-"44
-[p x WRTAPP  =  OFF  ]
+[p x STVREN  =  ON  ]
 "45
-[p x WRTB  =  OFF  ]
+[p x BBSIZE  =  BB512  ]
 "46
-[p x WRTC  =  OFF  ]
+[p x BBEN  =  OFF  ]
 "47
-[p x WRTSAF  =  OFF  ]
+[p x SAFEN  =  OFF  ]
 "48
-[p x LVP  =  ON  ]
+[p x WRTAPP  =  OFF  ]
+"49
+[p x WRTB  =  OFF  ]
+"50
+[p x WRTC  =  OFF  ]
 "51
+[p x WRTSAF  =  OFF  ]
+"52
+[p x LVP  =  ON  ]
+"55
 [p x CP  =  OFF  ]
-"66
-[; ;Control_paso.c: 66: void PIN_MANAGER_Initialize(void)
+"70
+[; ;Control_paso.c: 70: void PIN_MANAGER_Initialize(void)
 [v _PIN_MANAGER_Initialize `(v ~T0 @X0 1 ef ]
-"67
-[; ;Control_paso.c: 67: {
+"71
+[; ;Control_paso.c: 71: {
 {
 [e :U _PIN_MANAGER_Initialize ]
 [f ]
-"69
-[; ;Control_paso.c: 69:   LATA = 0x00;
+"73
+[; ;Control_paso.c: 73:   LATA = 0x00;
 [e = _LATA -> -> 0 `i `uc ]
-"70
-[; ;Control_paso.c: 70:   LATB = 0x00;
-[e = _LATB -> -> 0 `i `uc ]
-"71
-[; ;Control_paso.c: 71:   LATC = 0x00;
-[e = _LATC -> -> 0 `i `uc ]
 "74
-[; ;Control_paso.c: 74:   TRISA = 0b00110000;
-[e = _TRISA -> -> 48 `i `uc ]
+[; ;Control_paso.c: 74:   LATB = 0x00;
+[e = _LATB -> -> 0 `i `uc ]
 "75
-[; ;Control_paso.c: 75:   TRISB = 0b10100000;
-[e = _TRISB -> -> 160 `i `uc ]
-"76
-[; ;Control_paso.c: 76:   TRISC = 0b00000100;
-[e = _TRISC -> -> 4 `i `uc ]
+[; ;Control_paso.c: 75:   LATC = 0x00;
+[e = _LATC -> -> 0 `i `uc ]
+"78
+[; ;Control_paso.c: 78:   TRISA = 0b00110000;
+[e = _TRISA -> -> 48 `i `uc ]
 "79
-[; ;Control_paso.c: 79:   ANSELC = 0;
-[e = _ANSELC -> -> 0 `i `uc ]
+[; ;Control_paso.c: 79:   TRISB = 0b10100000;
+[e = _TRISB -> -> 160 `i `uc ]
 "80
-[; ;Control_paso.c: 80:   ANSELB = 0;
+[; ;Control_paso.c: 80:   TRISC = 0b00000100;
+[e = _TRISC -> -> 4 `i `uc ]
+"83
+[; ;Control_paso.c: 83:   ANSELC = 0;
+[e = _ANSELC -> -> 0 `i `uc ]
+"84
+[; ;Control_paso.c: 84:   ANSELB = 0;
 [e = _ANSELB -> -> 0 `i `uc ]
-"81
-[; ;Control_paso.c: 81:   ANSELA = 0;
+"85
+[; ;Control_paso.c: 85:   ANSELA = 0;
 [e = _ANSELA -> -> 0 `i `uc ]
-"88
-[; ;Control_paso.c: 88:   WPUC = 0x04;
-[e = _WPUC -> -> 4 `i `uc ]
-"91
-[; ;Control_paso.c: 91:   ODCONA = 0x04;
-[e = _ODCONA -> -> 4 `i `uc ]
 "92
-[; ;Control_paso.c: 92:   ODCONB = 0x00;
-[e = _ODCONB -> -> 0 `i `uc ]
-"93
-[; ;Control_paso.c: 93:   ODCONC = 0x00;
-[e = _ODCONC -> -> 0 `i `uc ]
+[; ;Control_paso.c: 92:   WPUC = 0x04;
+[e = _WPUC -> -> 4 `i `uc ]
+"95
+[; ;Control_paso.c: 95:   ODCONA = 0x04;
+[e = _ODCONA -> -> 4 `i `uc ]
 "96
-[; ;Control_paso.c: 96:   SLRCONA = 0x37;
-[e = _SLRCONA -> -> 55 `i `uc ]
+[; ;Control_paso.c: 96:   ODCONB = 0x00;
+[e = _ODCONB -> -> 0 `i `uc ]
 "97
-[; ;Control_paso.c: 97:   SLRCONB = 0xFF;
-[e = _SLRCONB -> -> 255 `i `uc ]
-"98
-[; ;Control_paso.c: 98:   SLRCONC = 0xFF;
-[e = _SLRCONC -> -> 255 `i `uc ]
+[; ;Control_paso.c: 97:   ODCONC = 0x00;
+[e = _ODCONC -> -> 0 `i `uc ]
+"100
+[; ;Control_paso.c: 100:   SLRCONA = 0x37;
+[e = _SLRCONA -> -> 55 `i `uc ]
 "101
-[; ;Control_paso.c: 101:   INLVLA = 0x3F;
-[e = _INLVLA -> -> 63 `i `uc ]
+[; ;Control_paso.c: 101:   SLRCONB = 0xFF;
+[e = _SLRCONB -> -> 255 `i `uc ]
 "102
-[; ;Control_paso.c: 102:   INLVLB = 0xFF;
-[e = _INLVLB -> -> 255 `i `uc ]
-"103
-[; ;Control_paso.c: 103:   INLVLC = 0xFF;
-[e = _INLVLC -> -> 255 `i `uc ]
+[; ;Control_paso.c: 102:   SLRCONC = 0xFF;
+[e = _SLRCONC -> -> 255 `i `uc ]
 "105
-[; ;Control_paso.c: 105: }
+[; ;Control_paso.c: 105:   INLVLA = 0x3F;
+[e = _INLVLA -> -> 63 `i `uc ]
+"106
+[; ;Control_paso.c: 106:   INLVLB = 0xFF;
+[e = _INLVLB -> -> 255 `i `uc ]
+"107
+[; ;Control_paso.c: 107:   INLVLC = 0xFF;
+[e = _INLVLC -> -> 255 `i `uc ]
+"109
+[; ;Control_paso.c: 109: }
 [e :UE 537 ]
 }
-"107
-[; ;Control_paso.c: 107: uint8_t contador = 0;
+"111
+[; ;Control_paso.c: 111: uint8_t contador = 0;
 [v _contador `uc ~T0 @X0 1 e ]
 [i _contador
 -> -> 0 `i `uc
 ]
-"108
-[; ;Control_paso.c: 108: uint8_t MAX = 50;
+"112
+[; ;Control_paso.c: 112: uint8_t MAX = 50;
 [v _MAX `uc ~T0 @X0 1 e ]
 [i _MAX
 -> -> 50 `i `uc
 ]
-"109
-[; ;Control_paso.c: 109: char s[20];
+"113
+[; ;Control_paso.c: 113: char s[20];
 [v _s `uc ~T0 @X0 -> 20 `i e ]
-"112
-[; ;Control_paso.c: 112: void menu(void) {
+"116
+[; ;Control_paso.c: 116: void menu(void) {
 [v _menu `(v ~T0 @X0 1 ef ]
 {
 [e :U _menu ]
 [f ]
-"114
-[; ;Control_paso.c: 114:   uint24_t variable = 0;
+"118
+[; ;Control_paso.c: 118:   uint24_t variable = 0;
 [v _variable `um ~T0 @X0 1 a ]
 [e = _variable -> -> -> 0 `i `m `um ]
-"115
-[; ;Control_paso.c: 115:   _Bool operacion = 0;
+"119
+[; ;Control_paso.c: 119:   _Bool operacion = 0;
 [v _operacion `a ~T0 @X0 1 a ]
 [e = _operacion -> -> 0 `i `a ]
-"116
-[; ;Control_paso.c: 116:   int ok = 0;
+"120
+[; ;Control_paso.c: 120:   int ok = 0;
 [v _ok `i ~T0 @X0 1 a ]
 [e = _ok -> 0 `i ]
-"117
-[; ;Control_paso.c: 117:   while (1) {
+"121
+[; ;Control_paso.c: 121:   while (1) {
 [e :U 540 ]
 {
-"120
-[; ;Control_paso.c: 120:     if (PORTCbits.RC2 == 0) {
+"124
+[; ;Control_paso.c: 124:     if (PORTCbits.RC2 == 0) {
 [e $ ! == -> . . _PORTCbits 0 2 `i -> 0 `i 542  ]
 {
-"121
-[; ;Control_paso.c: 121:       _delay((unsigned long)((1000)*(1000000/4000.0)));
+"125
+[; ;Control_paso.c: 125:       _delay((unsigned long)((1000)*(1000000/4000.0)));
 [e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"122
-[; ;Control_paso.c: 122:       if (PORTCbits.RC2!= 0) {
+"126
+[; ;Control_paso.c: 126:       if (PORTCbits.RC2!= 0) {
 [e $ ! != -> . . _PORTCbits 0 2 `i -> 0 `i 543  ]
 {
-"123
-[; ;Control_paso.c: 123:         operacion = !operacion;
+"127
+[; ;Control_paso.c: 127:         operacion = !operacion;
 [e = _operacion -> -> ! != -> _operacion `i -> 0 `i `i `a ]
-"125
-[; ;Control_paso.c: 125:         if (operacion) {
+"129
+[; ;Control_paso.c: 129:         if (operacion) {
 [e $ ! != -> _operacion `i -> 0 `i 544  ]
 {
-"126
-[; ;Control_paso.c: 126:           Lcd_Cmd(1);
-[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
-"127
-[; ;Control_paso.c: 127:           sprintf(s, "AJUSTE ");
-[e ( _sprintf (1 , &U _s :s 1C ]
-"128
-[; ;Control_paso.c: 128:           Lcd_Out2(1, 0, s);
-[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _s ]
-"129
-[; ;Control_paso.c: 129:           sprintf(s, "LIMITE PERSONAS");
-[e ( _sprintf (1 , &U _s :s 2C ]
 "130
-[; ;Control_paso.c: 130:           Lcd_Out2(2, 0, s);
-[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 0 `i `uc &U _s ]
+[; ;Control_paso.c: 130:           Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
 "131
-[; ;Control_paso.c: 131:         }
+[; ;Control_paso.c: 131:           sprintf(s, "AJUSTE ");
+[e ( _sprintf (1 , &U _s :s 1C ]
+"132
+[; ;Control_paso.c: 132:           Lcd_Out2(1, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _s ]
+"133
+[; ;Control_paso.c: 133:           sprintf(s, "LIMITE PERSONAS");
+[e ( _sprintf (1 , &U _s :s 2C ]
+"134
+[; ;Control_paso.c: 134:           Lcd_Out2(2, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 0 `i `uc &U _s ]
+"135
+[; ;Control_paso.c: 135:         }
 }
 [e $U 545  ]
-"132
-[; ;Control_paso.c: 132:         else {
+"136
+[; ;Control_paso.c: 136:         else {
 [e :U 544 ]
 {
-"133
-[; ;Control_paso.c: 133:           _delay((unsigned long)((500)*(1000000/4000.0)));
+"137
+[; ;Control_paso.c: 137:           _delay((unsigned long)((500)*(1000000/4000.0)));
 [e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"134
-[; ;Control_paso.c: 134:         }
+"138
+[; ;Control_paso.c: 138:         }
 }
 [e :U 545 ]
-"135
-[; ;Control_paso.c: 135:       }
+"139
+[; ;Control_paso.c: 139:       }
 }
 [e :U 543 ]
-"136
-[; ;Control_paso.c: 136:     }
+"140
+[; ;Control_paso.c: 140:     }
 }
 [e :U 542 ]
-"139
-[; ;Control_paso.c: 139:     while (PORTCbits.RC2 == 0) {
+"143
+[; ;Control_paso.c: 143:     while (PORTCbits.RC2 == 0) {
 [e $U 546  ]
 [e :U 547 ]
 {
-"140
-[; ;Control_paso.c: 140:       variable++;
+"144
+[; ;Control_paso.c: 144:       variable++;
 [e ++ _variable -> -> -> 1 `i `m `um ]
-"141
-[; ;Control_paso.c: 141:       if (variable == 34723) {
+"145
+[; ;Control_paso.c: 145:       if (variable == 34723) {
 [e $ ! == -> _variable `l -> 34723 `l 549  ]
 {
-"142
-[; ;Control_paso.c: 142:         variable = 0;
-[e = _variable -> -> -> 0 `i `m `um ]
-"143
-[; ;Control_paso.c: 143:         Lcd_Cmd(1);
-[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
-"144
-[; ;Control_paso.c: 144:         sprintf(s, "ELIJA");
-[e ( _sprintf (1 , &U _s :s 3C ]
-"145
-[; ;Control_paso.c: 145:         Lcd_Out2(1, 0, s);
-[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _s ]
 "146
-[; ;Control_paso.c: 146:         sprintf(s, "LIMITE PERSONAS");
-[e ( _sprintf (1 , &U _s :s 4C ]
+[; ;Control_paso.c: 146:         variable = 0;
+[e = _variable -> -> -> 0 `i `m `um ]
 "147
-[; ;Control_paso.c: 147:         Lcd_Out2(2, 0, s);
-[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 0 `i `uc &U _s ]
+[; ;Control_paso.c: 147:         Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
 "148
-[; ;Control_paso.c: 148:        _delay((unsigned long)((2000)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 2000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+[; ;Control_paso.c: 148:         sprintf(s, "ELIJA");
+[e ( _sprintf (1 , &U _s :s 3C ]
+"149
+[; ;Control_paso.c: 149:         Lcd_Out2(1, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _s ]
 "150
-[; ;Control_paso.c: 150:         while (1) {
+[; ;Control_paso.c: 150:         sprintf(s, "LIMITE PERSONAS");
+[e ( _sprintf (1 , &U _s :s 4C ]
+"151
+[; ;Control_paso.c: 151:         Lcd_Out2(2, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 0 `i `uc &U _s ]
+"152
+[; ;Control_paso.c: 152:        _delay((unsigned long)((2000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 2000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"154
+[; ;Control_paso.c: 154:         while (1) {
 [e :U 551 ]
 {
-"152
-[; ;Control_paso.c: 152:           if (PORTCbits.RC2 == 0) {
+"156
+[; ;Control_paso.c: 156:           if (PORTCbits.RC2 == 0) {
 [e $ ! == -> . . _PORTCbits 0 2 `i -> 0 `i 553  ]
 {
-"153
-[; ;Control_paso.c: 153:             _delay((unsigned long)((1000)*(1000000/4000.0)));
+"157
+[; ;Control_paso.c: 157:             _delay((unsigned long)((1000)*(1000000/4000.0)));
 [e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"154
-[; ;Control_paso.c: 154:             if (PORTCbits.RC2 != 0) {
+"158
+[; ;Control_paso.c: 158:             if (PORTCbits.RC2 != 0) {
 [e $ ! != -> . . _PORTCbits 0 2 `i -> 0 `i 554  ]
 {
-"155
-[; ;Control_paso.c: 155:               if (operacion == 1) {
+"159
+[; ;Control_paso.c: 159:               if (operacion == 1) {
 [e $ ! == -> _operacion `i -> 1 `i 555  ]
 {
-"156
-[; ;Control_paso.c: 156:                   if(MAX==255){
+"160
+[; ;Control_paso.c: 160:                   if(MAX==255){
 [e $ ! == -> _MAX `i -> 255 `i 556  ]
 {
-"157
-[; ;Control_paso.c: 157:                       MAX=255;
+"161
+[; ;Control_paso.c: 161:                       MAX=255;
 [e = _MAX -> -> 255 `i `uc ]
-"158
-[; ;Control_paso.c: 158:                   }
+"162
+[; ;Control_paso.c: 162:                   }
 }
 [e $U 557  ]
-"159
-[; ;Control_paso.c: 159:                   else{
+"163
+[; ;Control_paso.c: 163:                   else{
 [e :U 556 ]
 {
-"160
-[; ;Control_paso.c: 160:                       MAX=MAX+10;
+"164
+[; ;Control_paso.c: 164:                       MAX=MAX+10;
 [e = _MAX -> + -> _MAX `i -> 10 `i `uc ]
-"161
-[; ;Control_paso.c: 161:                   }
+"165
+[; ;Control_paso.c: 165:                   }
 }
 [e :U 557 ]
-"163
-[; ;Control_paso.c: 163:                 Lcd_Cmd(1);
-[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
-"164
-[; ;Control_paso.c: 164:                 sprintf(s, "Configuracion");
-[e ( _sprintf (1 , &U _s :s 5C ]
-"165
-[; ;Control_paso.c: 165:                 Lcd_Out2(1, 0, s);
-[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _s ]
-"166
-[; ;Control_paso.c: 166:                 sprintf(s, "Maximo: %d", MAX);
-[e ( _sprintf (1 , (. , &U _s :s 6C -> _MAX `i ]
 "167
-[; ;Control_paso.c: 167:                 Lcd_Out2(2, 0, s);
-[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 0 `i `uc &U _s ]
+[; ;Control_paso.c: 167:                 Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
+"168
+[; ;Control_paso.c: 168:                 sprintf(s, "Configuracion");
+[e ( _sprintf (1 , &U _s :s 5C ]
 "169
-[; ;Control_paso.c: 169:               } else {
+[; ;Control_paso.c: 169:                 Lcd_Out2(1, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _s ]
+"170
+[; ;Control_paso.c: 170:                 sprintf(s, "Maximo: %d", MAX);
+[e ( _sprintf (1 , (. , &U _s :s 6C -> _MAX `i ]
+"171
+[; ;Control_paso.c: 171:                 Lcd_Out2(2, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 0 `i `uc &U _s ]
+"173
+[; ;Control_paso.c: 173:               } else {
 }
 [e $U 558  ]
 [e :U 555 ]
 {
-"170
-[; ;Control_paso.c: 170:                 if (MAX == 0) {
+"174
+[; ;Control_paso.c: 174:                 if (MAX == 0) {
 [e $ ! == -> _MAX `i -> 0 `i 559  ]
 {
-"171
-[; ;Control_paso.c: 171:                   MAX = 0;
+"175
+[; ;Control_paso.c: 175:                   MAX = 0;
 [e = _MAX -> -> 0 `i `uc ]
-"172
-[; ;Control_paso.c: 172:                 } else {
+"176
+[; ;Control_paso.c: 176:                 } else {
 }
 [e $U 560  ]
 [e :U 559 ]
 {
-"173
-[; ;Control_paso.c: 173:                   MAX = MAX - 10;
+"177
+[; ;Control_paso.c: 177:                   MAX = MAX - 10;
 [e = _MAX -> - -> _MAX `i -> 10 `i `uc ]
-"175
-[; ;Control_paso.c: 175:                 }
+"179
+[; ;Control_paso.c: 179:                 }
 }
 [e :U 560 ]
-"176
-[; ;Control_paso.c: 176:                 if(MAX==0){
+"180
+[; ;Control_paso.c: 180:                 if(MAX==0){
 [e $ ! == -> _MAX `i -> 0 `i 561  ]
 {
-"177
-[; ;Control_paso.c: 177:                     MAX=50;
+"181
+[; ;Control_paso.c: 181:                     MAX=50;
 [e = _MAX -> -> 50 `i `uc ]
-"178
-[; ;Control_paso.c: 178:                 }
+"182
+[; ;Control_paso.c: 182:                 }
 }
 [e :U 561 ]
-"179
-[; ;Control_paso.c: 179:                 Lcd_Cmd(1);
-[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
-"180
-[; ;Control_paso.c: 180:                  sprintf(s, "Configuracion");
-[e ( _sprintf (1 , &U _s :s 7C ]
-"181
-[; ;Control_paso.c: 181:                 Lcd_Out2(1, 0, s);
-[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _s ]
-"182
-[; ;Control_paso.c: 182:                 sprintf(s, "Maximo: %d", MAX);
-[e ( _sprintf (1 , (. , &U _s :s 8C -> _MAX `i ]
 "183
-[; ;Control_paso.c: 183:                 Lcd_Out2(2, 0, s);
-[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 0 `i `uc &U _s ]
+[; ;Control_paso.c: 183:                 Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
 "184
-[; ;Control_paso.c: 184:               }
+[; ;Control_paso.c: 184:                  sprintf(s, "Configuracion");
+[e ( _sprintf (1 , &U _s :s 7C ]
+"185
+[; ;Control_paso.c: 185:                 Lcd_Out2(1, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _s ]
+"186
+[; ;Control_paso.c: 186:                 sprintf(s, "Maximo: %d", MAX);
+[e ( _sprintf (1 , (. , &U _s :s 8C -> _MAX `i ]
+"187
+[; ;Control_paso.c: 187:                 Lcd_Out2(2, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 0 `i `uc &U _s ]
+"188
+[; ;Control_paso.c: 188:               }
 }
 [e :U 558 ]
-"186
-[; ;Control_paso.c: 186:             }
+"190
+[; ;Control_paso.c: 190:             }
 }
 [e :U 554 ]
-"187
-[; ;Control_paso.c: 187:           }
+"191
+[; ;Control_paso.c: 191:           }
 }
 [e :U 553 ]
-"188
-[; ;Control_paso.c: 188:           while (PORTCbits.RC2 == 0) {
+"192
+[; ;Control_paso.c: 192:           while (PORTCbits.RC2 == 0) {
 [e $U 562  ]
 [e :U 563 ]
 {
-"189
-[; ;Control_paso.c: 189:             variable++;
+"193
+[; ;Control_paso.c: 193:             variable++;
 [e ++ _variable -> -> -> 1 `i `m `um ]
-"190
-[; ;Control_paso.c: 190:             if (variable == 44643) {
+"194
+[; ;Control_paso.c: 194:             if (variable == 44643) {
 [e $ ! == -> _variable `l -> 44643 `l 565  ]
 {
-"191
-[; ;Control_paso.c: 191:              variable = 0;
-[e = _variable -> -> -> 0 `i `m `um ]
-"192
-[; ;Control_paso.c: 192:              ok = 1;
-[e = _ok -> 1 `i ]
-"193
-[; ;Control_paso.c: 193:              Lcd_Cmd(1);
-[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
-"194
-[; ;Control_paso.c: 194:              break;
-[e $U 564  ]
 "195
-[; ;Control_paso.c: 195:             }
+[; ;Control_paso.c: 195:              variable = 0;
+[e = _variable -> -> -> 0 `i `m `um ]
+"196
+[; ;Control_paso.c: 196:              ok = 1;
+[e = _ok -> 1 `i ]
+"197
+[; ;Control_paso.c: 197:              Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
+"198
+[; ;Control_paso.c: 198:              break;
+[e $U 564  ]
+"199
+[; ;Control_paso.c: 199:             }
 }
 [e :U 565 ]
-"196
-[; ;Control_paso.c: 196:           }
+"200
+[; ;Control_paso.c: 200:           }
 }
 [e :U 562 ]
-"188
-[; ;Control_paso.c: 188:           while (PORTCbits.RC2 == 0) {
+"192
+[; ;Control_paso.c: 192:           while (PORTCbits.RC2 == 0) {
 [e $ == -> . . _PORTCbits 0 2 `i -> 0 `i 563  ]
 [e :U 564 ]
-"197
-[; ;Control_paso.c: 197:           variable=0;
+"201
+[; ;Control_paso.c: 201:           variable=0;
 [e = _variable -> -> -> 0 `i `m `um ]
-"198
-[; ;Control_paso.c: 198:           if (ok == 1) {
+"202
+[; ;Control_paso.c: 202:           if (ok == 1) {
 [e $ ! == _ok -> 1 `i 566  ]
 {
-"199
-[; ;Control_paso.c: 199:             ok = 2;
+"203
+[; ;Control_paso.c: 203:             ok = 2;
 [e = _ok -> 2 `i ]
-"200
-[; ;Control_paso.c: 200:             break;
+"204
+[; ;Control_paso.c: 204:             break;
 [e $U 552  ]
-"201
-[; ;Control_paso.c: 201:           }
+"205
+[; ;Control_paso.c: 205:           }
 }
 [e :U 566 ]
-"202
-[; ;Control_paso.c: 202:         }
+"206
+[; ;Control_paso.c: 206:         }
 }
 [e :U 550 ]
 [e $U 551  ]
 [e :U 552 ]
-"203
-[; ;Control_paso.c: 203:       }
-}
-[e :U 549 ]
-"204
-[; ;Control_paso.c: 204:       if (ok == 2) {
-[e $ ! == _ok -> 2 `i 567  ]
-{
-"205
-[; ;Control_paso.c: 205:         ok = 3;
-[e = _ok -> 3 `i ]
-"206
-[; ;Control_paso.c: 206:         break;
-[e $U 548  ]
 "207
 [; ;Control_paso.c: 207:       }
 }
-[e :U 567 ]
+[e :U 549 ]
 "208
-[; ;Control_paso.c: 208:     }
+[; ;Control_paso.c: 208:       if (ok == 2) {
+[e $ ! == _ok -> 2 `i 567  ]
+{
+"209
+[; ;Control_paso.c: 209:         ok = 3;
+[e = _ok -> 3 `i ]
+"210
+[; ;Control_paso.c: 210:         break;
+[e $U 548  ]
+"211
+[; ;Control_paso.c: 211:       }
+}
+[e :U 567 ]
+"212
+[; ;Control_paso.c: 212:     }
 }
 [e :U 546 ]
-"139
-[; ;Control_paso.c: 139:     while (PORTCbits.RC2 == 0) {
+"143
+[; ;Control_paso.c: 143:     while (PORTCbits.RC2 == 0) {
 [e $ == -> . . _PORTCbits 0 2 `i -> 0 `i 547  ]
 [e :U 548 ]
-"209
-[; ;Control_paso.c: 209:     variable = 0;
+"213
+[; ;Control_paso.c: 213:     variable = 0;
 [e = _variable -> -> -> 0 `i `m `um ]
-"210
-[; ;Control_paso.c: 210:     if (ok == 3) {
+"214
+[; ;Control_paso.c: 214:     if (ok == 3) {
 [e $ ! == _ok -> 3 `i 568  ]
 {
-"211
-[; ;Control_paso.c: 211:       ok = 4;
-[e = _ok -> 4 `i ]
-"212
-[; ;Control_paso.c: 212:       Lcd_Cmd(1);
-[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
-"213
-[; ;Control_paso.c: 213:       sprintf(s, "Modo contador ");
-[e ( _sprintf (1 , &U _s :s 9C ]
-"214
-[; ;Control_paso.c: 214:       Lcd_Out2(1, 0, s);
-[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _s ]
 "215
-[; ;Control_paso.c: 215:       LATAbits.LATA2 = 1;
-[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+[; ;Control_paso.c: 215:       ok = 4;
+[e = _ok -> 4 `i ]
 "216
-[; ;Control_paso.c: 216:       _delay((unsigned long)((1000)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+[; ;Control_paso.c: 216:       Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
 "217
-[; ;Control_paso.c: 217:       break;
-[e $U 541  ]
+[; ;Control_paso.c: 217:       sprintf(s, "Modo contador ");
+[e ( _sprintf (1 , &U _s :s 9C ]
 "218
-[; ;Control_paso.c: 218:      }
+[; ;Control_paso.c: 218:       Lcd_Out2(1, 0, s);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _s ]
+"219
+[; ;Control_paso.c: 219:       LATAbits.LATA2 = 1;
+[e = . . _LATAbits 0 2 -> -> 1 `i `uc ]
+"220
+[; ;Control_paso.c: 220:       _delay((unsigned long)((1000)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"221
+[; ;Control_paso.c: 221:       break;
+[e $U 541  ]
+"222
+[; ;Control_paso.c: 222:      }
 }
 [e :U 568 ]
-"220
-[; ;Control_paso.c: 220:   }
+"224
+[; ;Control_paso.c: 224:   }
 }
 [e :U 539 ]
 [e $U 540  ]
 [e :U 541 ]
-"222
-[; ;Control_paso.c: 222: }
+"226
+[; ;Control_paso.c: 226: }
 [e :UE 538 ]
 }
-"224
-[; ;Control_paso.c: 224: char CONT[20];
+"228
+[; ;Control_paso.c: 228: char CONT[20];
 [v _CONT `uc ~T0 @X0 -> 20 `i e ]
-"225
-[; ;Control_paso.c: 225: int contado=0;
+"229
+[; ;Control_paso.c: 229: int contado=0;
 [v _contado `i ~T0 @X0 1 e ]
 [i _contado
 -> 0 `i
 ]
-"226
-[; ;Control_paso.c: 226: uint24_t S;
+"230
+[; ;Control_paso.c: 230: uint24_t S;
 [v _S `um ~T0 @X0 1 e ]
-"227
-[; ;Control_paso.c: 227: uint24_t selec=0;
+"231
+[; ;Control_paso.c: 231: uint24_t selec=0;
 [v _selec `um ~T0 @X0 1 e ]
 [i _selec
 -> -> -> 0 `i `m `um
 ]
-"228
-[; ;Control_paso.c: 228: const int LDR=950;
+"232
+[; ;Control_paso.c: 232: const int LDR=950;
 [v _LDR `Ci ~T0 @X0 1 e ]
 [i _LDR
 -> 950 `i
 ]
-"229
-[; ;Control_paso.c: 229: _Bool S_1=0;
+"233
+[; ;Control_paso.c: 233: _Bool S_1=0;
 [v _S_1 `a ~T0 @X0 1 e ]
 [i _S_1
 -> -> 0 `i `a
 ]
-"230
-[; ;Control_paso.c: 230: _Bool S_2=0;
+"234
+[; ;Control_paso.c: 234: _Bool S_2=0;
 [v _S_2 `a ~T0 @X0 1 e ]
 [i _S_2
 -> -> 0 `i `a
 ]
-"231
-[; ;Control_paso.c: 231: int SU=0;
+"235
+[; ;Control_paso.c: 235: int SU=0;
 [v _SU `i ~T0 @X0 1 e ]
 [i _SU
 -> 0 `i
 ]
 [v $root$_main `(v ~T0 @X0 0 e ]
-"234
-[; ;Control_paso.c: 234: void main(void)
+"238
+[; ;Control_paso.c: 238: void main(void)
 [v _main `(v ~T0 @X0 1 ef ]
-"235
-[; ;Control_paso.c: 235: {
+"239
+[; ;Control_paso.c: 239: {
 {
 [e :U _main ]
 [f ]
-"236
-[; ;Control_paso.c: 236:     PIN_MANAGER_Initialize();
+"240
+[; ;Control_paso.c: 240:     PIN_MANAGER_Initialize();
 [e ( _PIN_MANAGER_Initialize ..  ]
-"238
-[; ;Control_paso.c: 238:     LATAbits.LATA1=0;
-[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
-"241
-[; ;Control_paso.c: 241:     Lcd_Init();
-[e ( _Lcd_Init ..  ]
 "242
-[; ;Control_paso.c: 242:     Lcd_Cmd(1);
-[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
-"243
-[; ;Control_paso.c: 243:     Lcd_Cmd(12);
-[e ( _Lcd_Cmd (1 -> -> 12 `i `uc ]
+[; ;Control_paso.c: 242:     LATAbits.LATA1=0;
+[e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
 "245
-[; ;Control_paso.c: 245:     _delay((unsigned long)((600)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 600 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+[; ;Control_paso.c: 245:     Lcd_Init();
+[e ( _Lcd_Init ..  ]
 "246
-[; ;Control_paso.c: 246:       Lcd_Out(2,2,"BuenDia");
-[e ( _Lcd_Out (3 , , -> -> 2 `i `uc -> -> 2 `i `uc :s 10C ]
+[; ;Control_paso.c: 246:     Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
 "247
-[; ;Control_paso.c: 247:       _delay((unsigned long)((500)*(1000000/4000.0)));
+[; ;Control_paso.c: 247:     Lcd_Cmd(12);
+[e ( _Lcd_Cmd (1 -> -> 12 `i `uc ]
+"249
+[; ;Control_paso.c: 249:     _delay((unsigned long)((600)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 600 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"250
+[; ;Control_paso.c: 250:       Lcd_Out(2,2,"BuenDia");
+[e ( _Lcd_Out (3 , , -> -> 2 `i `uc -> -> 2 `i `uc :s 10C ]
+"251
+[; ;Control_paso.c: 251:       _delay((unsigned long)((500)*(1000000/4000.0)));
 [e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"248
-[; ;Control_paso.c: 248:     while(1){
+"252
+[; ;Control_paso.c: 252:     while(1){
 [e :U 571 ]
 {
-"251
-[; ;Control_paso.c: 251:       if(PORTBbits.RB5==0){
+"255
+[; ;Control_paso.c: 255:       if(PORTBbits.RB5==0){
 [e $ ! == -> . . _PORTBbits 0 2 `i -> 0 `i 573  ]
 {
-"252
-[; ;Control_paso.c: 252:          contado++;
+"256
+[; ;Control_paso.c: 256:          contado++;
 [e ++ _contado -> 1 `i ]
-"253
-[; ;Control_paso.c: 253:         }
+"257
+[; ;Control_paso.c: 257:         }
 }
 [e :U 573 ]
-"254
-[; ;Control_paso.c: 254:       sprintf(CONT, "NumPersonas %0d",contado);
-[e ( _sprintf (1 , (. , &U _CONT :s 11C _contado ]
-"255
-[; ;Control_paso.c: 255:         Lcd_Out2(1,2,CONT);
-[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 2 `i `uc &U _CONT ]
-"256
-[; ;Control_paso.c: 256:         sprintf(CONT, "LIMITE %d",MAX);
-[e ( _sprintf (1 , (. , &U _CONT :s 12C -> _MAX `i ]
-"257
-[; ;Control_paso.c: 257:        Lcd_Out2(2,1,CONT);
-[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 1 `i `uc &U _CONT ]
 "258
-[; ;Control_paso.c: 258:         _delay((unsigned long)((100)*(1000000/4000.0)));
+[; ;Control_paso.c: 258:       sprintf(CONT, "NumPersonas %0d",contado);
+[e ( _sprintf (1 , (. , &U _CONT :s 11C _contado ]
+"259
+[; ;Control_paso.c: 259:         Lcd_Out2(1,2,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 2 `i `uc &U _CONT ]
+"260
+[; ;Control_paso.c: 260:         sprintf(CONT, "LIMITE %d",MAX);
+[e ( _sprintf (1 , (. , &U _CONT :s 12C -> _MAX `i ]
+"261
+[; ;Control_paso.c: 261:        Lcd_Out2(2,1,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 1 `i `uc &U _CONT ]
+"262
+[; ;Control_paso.c: 262:         _delay((unsigned long)((100)*(1000000/4000.0)));
 [e ( __delay (1 -> * -> -> 100 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"263
-[; ;Control_paso.c: 263:      if(PORTBbits.RB7==0){
+"267
+[; ;Control_paso.c: 267:      if(PORTBbits.RB7==0){
 [e $ ! == -> . . _PORTBbits 0 4 `i -> 0 `i 574  ]
 {
-"264
-[; ;Control_paso.c: 264:          contado--;
+"268
+[; ;Control_paso.c: 268:          contado--;
 [e -- _contado -> 1 `i ]
-"265
-[; ;Control_paso.c: 265:         }
+"269
+[; ;Control_paso.c: 269:         }
 }
 [e :U 574 ]
-"266
-[; ;Control_paso.c: 266:       sprintf(CONT, "NumPersonas %0d",contado);
-[e ( _sprintf (1 , (. , &U _CONT :s 13C _contado ]
-"267
-[; ;Control_paso.c: 267:         Lcd_Out2(1,2,CONT);
-[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 2 `i `uc &U _CONT ]
-"268
-[; ;Control_paso.c: 268:         sprintf(CONT, "LIMITE %d",MAX);
-[e ( _sprintf (1 , (. , &U _CONT :s 14C -> _MAX `i ]
-"269
-[; ;Control_paso.c: 269:        Lcd_Out2(2,1,CONT);
-[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 1 `i `uc &U _CONT ]
 "270
-[; ;Control_paso.c: 270:         _delay((unsigned long)((100)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+[; ;Control_paso.c: 270:       sprintf(CONT, "NumPersonas %0d",contado);
+[e ( _sprintf (1 , (. , &U _CONT :s 13C _contado ]
+"271
+[; ;Control_paso.c: 271:         Lcd_Out2(1,2,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 2 `i `uc &U _CONT ]
+"272
+[; ;Control_paso.c: 272:         sprintf(CONT, "LIMITE %d",MAX);
+[e ( _sprintf (1 , (. , &U _CONT :s 14C -> _MAX `i ]
+"273
+[; ;Control_paso.c: 273:        Lcd_Out2(2,1,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 1 `i `uc &U _CONT ]
 "274
-[; ;Control_paso.c: 274:         if(PORTCbits.RC2==0){
+[; ;Control_paso.c: 274:         _delay((unsigned long)((100)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"278
+[; ;Control_paso.c: 278:         if(PORTCbits.RC2==0){
 [e $ ! == -> . . _PORTCbits 0 2 `i -> 0 `i 575  ]
 {
-"275
-[; ;Control_paso.c: 275:             _delay((unsigned long)((500)*(1000000/4000.0)));
+"279
+[; ;Control_paso.c: 279:             _delay((unsigned long)((500)*(1000000/4000.0)));
 [e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"276
-[; ;Control_paso.c: 276:             if(PORTCbits.RC2!=0){
+"280
+[; ;Control_paso.c: 280:             if(PORTCbits.RC2!=0){
 [e $ ! != -> . . _PORTCbits 0 2 `i -> 0 `i 576  ]
 {
-"277
-[; ;Control_paso.c: 277:                 sprintf(CONT,"CONTAR",contado);
+"281
+[; ;Control_paso.c: 281:                 sprintf(CONT,"CONTAR",contado);
 [e ( _sprintf (1 , (. , &U _CONT :s 15C _contado ]
-"278
-[; ;Control_paso.c: 278:                 Lcd_Out2(1,0,CONT);
+"282
+[; ;Control_paso.c: 282:                 Lcd_Out2(1,0,CONT);
 [e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _CONT ]
-"279
-[; ;Control_paso.c: 279:             }
+"283
+[; ;Control_paso.c: 283:             }
 }
 [e :U 576 ]
-"280
-[; ;Control_paso.c: 280:         }
+"284
+[; ;Control_paso.c: 284:         }
 }
 [e :U 575 ]
-"282
-[; ;Control_paso.c: 282:     while(PORTCbits.RC2==0){
+"286
+[; ;Control_paso.c: 286:     while(PORTCbits.RC2==0){
 [e $U 577  ]
 [e :U 578 ]
 {
-"283
-[; ;Control_paso.c: 283:         selec++;
+"287
+[; ;Control_paso.c: 287:         selec++;
 [e ++ _selec -> -> -> 1 `i `m `um ]
-"284
-[; ;Control_paso.c: 284:         if(selec==3000){
+"288
+[; ;Control_paso.c: 288:         if(selec==3000){
 [e $ ! == _selec -> -> -> 3000 `i `m `um 580  ]
 {
-"285
-[; ;Control_paso.c: 285:             selec=0;
-[e = _selec -> -> -> 0 `i `m `um ]
-"286
-[; ;Control_paso.c: 286:             Lcd_Cmd(1);
-[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
-"287
-[; ;Control_paso.c: 287:             sprintf(CONT,"AJUSTAR");
-[e ( _sprintf (1 , &U _CONT :s 16C ]
-"288
-[; ;Control_paso.c: 288:             Lcd_Out2(1, 0, CONT);
-[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _CONT ]
 "289
-[; ;Control_paso.c: 289:             menu();
-[e ( _menu ..  ]
+[; ;Control_paso.c: 289:             selec=0;
+[e = _selec -> -> -> 0 `i `m `um ]
+"290
+[; ;Control_paso.c: 290:             Lcd_Cmd(1);
+[e ( _Lcd_Cmd (1 -> -> 1 `i `uc ]
 "291
-[; ;Control_paso.c: 291:         }
+[; ;Control_paso.c: 291:             sprintf(CONT,"AJUSTAR");
+[e ( _sprintf (1 , &U _CONT :s 16C ]
+"292
+[; ;Control_paso.c: 292:             Lcd_Out2(1, 0, CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 0 `i `uc &U _CONT ]
+"293
+[; ;Control_paso.c: 293:             menu();
+[e ( _menu ..  ]
+"295
+[; ;Control_paso.c: 295:         }
 }
 [e :U 580 ]
-"292
-[; ;Control_paso.c: 292:     }
+"296
+[; ;Control_paso.c: 296:     }
 }
 [e :U 577 ]
-"282
-[; ;Control_paso.c: 282:     while(PORTCbits.RC2==0){
+"286
+[; ;Control_paso.c: 286:     while(PORTCbits.RC2==0){
 [e $ == -> . . _PORTCbits 0 2 `i -> 0 `i 578  ]
 [e :U 579 ]
-"293
-[; ;Control_paso.c: 293:     selec=0;
-[e = _selec -> -> -> 0 `i `m `um ]
 "297
-[; ;Control_paso.c: 297:     if(PORTAbits.RA4==0){
+[; ;Control_paso.c: 297:     selec=0;
+[e = _selec -> -> -> 0 `i `m `um ]
+"301
+[; ;Control_paso.c: 301:     if(PORTAbits.RA4==0){
 [e $ ! == -> . . _PORTAbits 0 4 `i -> 0 `i 581  ]
 {
-"298
-[; ;Control_paso.c: 298:     _delay((unsigned long)((20)*(1000000/4000.0)));
+"302
+[; ;Control_paso.c: 302:     _delay((unsigned long)((20)*(1000000/4000.0)));
 [e ( __delay (1 -> * -> -> 20 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
-"299
-[; ;Control_paso.c: 299:     }
+"303
+[; ;Control_paso.c: 303:     }
 }
 [e :U 581 ]
-"300
-[; ;Control_paso.c: 300:     if(PORTAbits.RA4==1){
+"304
+[; ;Control_paso.c: 304:     if(PORTAbits.RA4==1){
 [e $ ! == -> . . _PORTAbits 0 4 `i -> 1 `i 582  ]
 {
-"301
-[; ;Control_paso.c: 301:         contado++;
-[e ++ _contado -> 1 `i ]
-"302
-[; ;Control_paso.c: 302:          sprintf(CONT, "NumPersonas %0d",contado);
-[e ( _sprintf (1 , (. , &U _CONT :s 17C _contado ]
-"303
-[; ;Control_paso.c: 303:         Lcd_Out2(1,2,CONT);
-[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 2 `i `uc &U _CONT ]
-"304
-[; ;Control_paso.c: 304:         sprintf(CONT, "LIMITE %0d",MAX);
-[e ( _sprintf (1 , (. , &U _CONT :s 18C -> _MAX `i ]
 "305
-[; ;Control_paso.c: 305:        Lcd_Out2(2,1,CONT);
-[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 1 `i `uc &U _CONT ]
+[; ;Control_paso.c: 305:         contado++;
+[e ++ _contado -> 1 `i ]
 "306
-[; ;Control_paso.c: 306:         _delay((unsigned long)((500)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+[; ;Control_paso.c: 306:          sprintf(CONT, "NumPersonas %0d",contado);
+[e ( _sprintf (1 , (. , &U _CONT :s 17C _contado ]
+"307
+[; ;Control_paso.c: 307:         Lcd_Out2(1,2,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 2 `i `uc &U _CONT ]
 "308
-[; ;Control_paso.c: 308:     }
+[; ;Control_paso.c: 308:         sprintf(CONT, "LIMITE %0d",MAX);
+[e ( _sprintf (1 , (. , &U _CONT :s 18C -> _MAX `i ]
+"309
+[; ;Control_paso.c: 309:        Lcd_Out2(2,1,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 1 `i `uc &U _CONT ]
+"310
+[; ;Control_paso.c: 310:         _delay((unsigned long)((500)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"312
+[; ;Control_paso.c: 312:     }
 }
 [e :U 582 ]
-"309
-[; ;Control_paso.c: 309:     if(PORTAbits.RA5==1){
+"313
+[; ;Control_paso.c: 313:     if(PORTAbits.RA5==1){
 [e $ ! == -> . . _PORTAbits 0 5 `i -> 1 `i 583  ]
 {
-"310
-[; ;Control_paso.c: 310:         contado--;
+"314
+[; ;Control_paso.c: 314:         contado--;
 [e -- _contado -> 1 `i ]
-"311
-[; ;Control_paso.c: 311:     }
+"315
+[; ;Control_paso.c: 315:     }
 }
 [e :U 583 ]
-"312
-[; ;Control_paso.c: 312:     sprintf(CONT, "NumPersonas %0d",contado);
-[e ( _sprintf (1 , (. , &U _CONT :s 19C _contado ]
-"313
-[; ;Control_paso.c: 313:         Lcd_Out2(1,2,CONT);
-[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 2 `i `uc &U _CONT ]
-"314
-[; ;Control_paso.c: 314:         sprintf(CONT, "LIMITE %0d",MAX);
-[e ( _sprintf (1 , (. , &U _CONT :s 20C -> _MAX `i ]
-"315
-[; ;Control_paso.c: 315:         Lcd_Out2(2,1,CONT);
-[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 1 `i `uc &U _CONT ]
 "316
-[; ;Control_paso.c: 316:         _delay((unsigned long)((500)*(1000000/4000.0)));
-[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+[; ;Control_paso.c: 316:     sprintf(CONT, "NumPersonas %0d",contado);
+[e ( _sprintf (1 , (. , &U _CONT :s 19C _contado ]
+"317
+[; ;Control_paso.c: 317:         Lcd_Out2(1,2,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 1 `i `uc -> -> 2 `i `uc &U _CONT ]
+"318
+[; ;Control_paso.c: 318:         sprintf(CONT, "LIMITE %0d",MAX);
+[e ( _sprintf (1 , (. , &U _CONT :s 20C -> _MAX `i ]
+"319
+[; ;Control_paso.c: 319:         Lcd_Out2(2,1,CONT);
+[e ( _Lcd_Out2 (3 , , -> -> 2 `i `uc -> -> 1 `i `uc &U _CONT ]
 "320
-[; ;Control_paso.c: 320:          if(contado> MAX){
+[; ;Control_paso.c: 320:         _delay((unsigned long)((500)*(1000000/4000.0)));
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 1000000 `l `d .4000.0 `ul ]
+"324
+[; ;Control_paso.c: 324:          if(contado> MAX){
 [e $ ! > _contado -> _MAX `i 584  ]
 {
-"321
-[; ;Control_paso.c: 321:      LATCbits.LATC0=1;}
+"325
+[; ;Control_paso.c: 325:      LATCbits.LATC0=1;}
 [e = . . _LATCbits 0 0 -> -> 1 `i `uc ]
 }
 [e $U 585  ]
-"322
-[; ;Control_paso.c: 322:         else{
+"326
+[; ;Control_paso.c: 326:         else{
 [e :U 584 ]
 {
-"323
-[; ;Control_paso.c: 323:              LATCbits.LATC0=0;
+"327
+[; ;Control_paso.c: 327:              LATCbits.LATC0=0;
 [e = . . _LATCbits 0 0 -> -> 0 `i `uc ]
-"324
-[; ;Control_paso.c: 324:         }
+"328
+[; ;Control_paso.c: 328:         }
 }
 [e :U 585 ]
-"325
-[; ;Control_paso.c: 325:         if(contado < MAX){
+"329
+[; ;Control_paso.c: 329:         if(contado < MAX){
 [e $ ! < _contado -> _MAX `i 586  ]
 {
-"326
-[; ;Control_paso.c: 326:      LATAbits.LATA1=1;}
+"330
+[; ;Control_paso.c: 330:      LATAbits.LATA1=1;}
 [e = . . _LATAbits 0 1 -> -> 1 `i `uc ]
 }
 [e $U 587  ]
-"327
-[; ;Control_paso.c: 327:         else{
+"331
+[; ;Control_paso.c: 331:         else{
 [e :U 586 ]
 {
-"328
-[; ;Control_paso.c: 328:              LATAbits.LATA1=0;
+"332
+[; ;Control_paso.c: 332:              LATAbits.LATA1=0;
 [e = . . _LATAbits 0 1 -> -> 0 `i `uc ]
-"329
-[; ;Control_paso.c: 329:         }
+"333
+[; ;Control_paso.c: 333:         }
 }
 [e :U 587 ]
-"330
-[; ;Control_paso.c: 330:         if(contado== MAX){
+"334
+[; ;Control_paso.c: 334:         if(contado== MAX){
 [e $ ! == _contado -> _MAX `i 588  ]
 {
-"331
-[; ;Control_paso.c: 331:      LATCbits.LATC1=1;}
+"335
+[; ;Control_paso.c: 335:      LATCbits.LATC1=1;}
 [e = . . _LATCbits 0 1 -> -> 1 `i `uc ]
 }
 [e $U 589  ]
-"332
-[; ;Control_paso.c: 332:         else{
+"336
+[; ;Control_paso.c: 336:         else{
 [e :U 588 ]
 {
-"333
-[; ;Control_paso.c: 333:         LATCbits.LATC1=0;
+"337
+[; ;Control_paso.c: 337:         LATCbits.LATC1=0;
 [e = . . _LATCbits 0 1 -> -> 0 `i `uc ]
-"334
-[; ;Control_paso.c: 334:         }
+"338
+[; ;Control_paso.c: 338:         }
 }
 [e :U 589 ]
-"370
-[; ;Control_paso.c: 370:          }
+"374
+[; ;Control_paso.c: 374:          }
 }
 [e :U 570 ]
 [e $U 571  ]
 [e :U 572 ]
-"371
-[; ;Control_paso.c: 371: }
+"375
+[; ;Control_paso.c: 375: }
 [e :UE 569 ]
 }
 [p f _sprintf 8388740 ]
